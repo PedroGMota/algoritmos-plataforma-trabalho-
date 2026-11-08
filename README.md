@@ -9,8 +9,8 @@
 
 ## 1. Abertura
 
-* **Nome do Projeto:** [Nome da solução]
-* **Recorte Escolhido:** [Ex: Foco na transparência de tarifas e no fluxo de contestação de bloqueios sumários para entregadores de moto na Grande São Paulo]
+* **Nome do Projeto:** Rota Clara
+* **Recorte Escolhido:** Revisão Humana de Bloqueios Indevidos e Decisões Algorítmicas
 * **Integrantes do Grupo:**
   * **Alessandro Tavares Brandão** | RGM: 47995092 | Área: ADS | GitHub: https://github.com/alessandro16014
   * **Júlio Cesar Marques de Sousa** | RGM:  04806969-8 | Área: ADS | GitHub: [@usuario2]
