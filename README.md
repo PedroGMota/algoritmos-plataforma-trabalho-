@@ -82,34 +82,48 @@ A escolha deste recorte é justificada pela alta frequência de desativações a
 * [Insira aqui, em até 10 linhas, a decisão fundamentada do grupo sobre a implantação do sistema.]
 
 ### 4.3. Controles nos Seis Eixos
-1. **Transparência:** [Como a solução garante clareza.]
-2. **Revisão humana:** [Como o humano atua nas decisões.]
-3. **Minimização de dados:** [Quais dados são descartados/protegidos.]
-4. **Segurança:** [Proteção contra acessos indevidos.]
-5. **Teste de viés:** [Como o sistema testa discriminação.]
-6. **Canal de contestação:** [Como o usuário recorre de uma decisão.]
+1. Transparência: 
+ O RevisaAI informa ao motorista, em linguagem simples, que a análise é feita por algoritmo, quais critérios foram considerados (ex.: denúncias, avaliações, inconsistência de documentos) e o motivo específico do bloqueio ou da sinalização. A notificação é enviada no app antes ou no momento da medida, com indicação de como contestar. 
+2. Revisão humana: 
+ Nenhum bloqueio é aplicado apenas por decisão do algoritmo. Um funcionário treinado analisa o caso antes da medida, com acesso às evidências que levaram à sinalização, e tem autonomia para confirmar, revogar ou pedir mais informações. Para evitar que a revisão vire mera formalidade, uma amostra das decisões é auditada, e o índice de reversões é monitorado. 
+3. Minimização de dados: 
+ São coletados apenas os dados necessários para avaliar a conduta do motorista (cadastro, avaliações, denúncias e registros da corrida). Dados sensíveis ou sem finalidade definida, como trajetos detalhados fora das corridas, localização contínua e informações pessoais não relacionadas à análise, são descartados ou anonimizados, conforme os princípios da LGPD (finalidade, adequação e necessidade). 
+4. Segurança: 
+ O RevisaAI utiliza criptografia de dados, controle de acesso por níveis de permissão e registro de atividades (logs) para rastrear quem acessou ou alterou informações. Essas medidas reduzem riscos de vazamento e uso indevido dos dados dos trabalhadores. 
+5. Teste de Viés: 
+ O sistema realiza avaliações periódicas dos resultados do algoritmo, comparando taxas de bloqueio por região, gênero, raça e tipo de veículo. Se um grupo ou região for desproporcionalmente afetado, o critério é revisado antes de continuar em uso. 
+6. Canal de Contestação: 
+ O motorista pode contestar qualquer bloqueio ou decisão algorítmica diretamente pelo app, com envio de justificativas e documentos. A contestação é analisada por um profissional diferente do que tomou a decisão inicial, com resposta fundamentada em prazo definido (ex.: até 5 dias úteis). Durante a análise, o motorista é informado do andamento. Se o bloqueio for considerado indevido, o acesso é restabelecido imediatamente. 
 
 ### 4.4. Conformidade com a LGPD
-* **Dados tratados:** [Listar dados de localização, cadastrais e financeiros.]
-* **Finalidade e Base Legal:** [Explicar o enquadramento na LGPD.]
-* **Prazo de retenção e menores:** [Políticas de descarte.]
+* **Dados tratados: Serão tratados apenas os dados necessários à análise das decisões algorítmicas: dados cadastrais do trabalhador, dados de habilitação (quando aplicável), histórico de corridas ou entregas, registros de bloqueios anteriores, informações de localização vinculadas à atividade profissional e evidências apresentadas pelo próprio usuário na contestação, como documentos e registros de comunicação.
+* **Finalidade e Base Legal: Finalidade: os dados serão utilizados para analisar bloqueios e decisões automatizadas, identificar possíveis falhas do sistema, viabilizar a contestação pelo trabalhador e assegurar decisões mais justas por meio da revisão humana, conforme o art. 20 da LGPD. 
+ Base legal: O tratamento fundamenta-se na execução de contrato entre a plataforma e o trabalhador (art. 7º, V) e no legítimo interesse da organização em garantir a segurança, corrigir erros automatizados e aprimorar a confiabilidade do serviço (art. 7º, IX).
+* **Prazo de retenção e menores: Os dados serão conservados apenas pelo período necessário à conclusão da análise e a eventuais auditorias, sendo posteriormente eliminados ou anonimizados. O sistema não realizará coleta de dados de menores de 18 anos.
 
 ### 4.5. Comunicado Público (Até 600 caracteres)
-> "[Escreva aqui o comunicado institucional da solução, respeitando rigorosamente o limite de 600 caracteres, incluindo espaços.]"
+> O RevisaAI é uma solução criada para tornar as decisões algorítmicas das plataformas de trabalho mais transparentes e justas. Nenhum bloqueio ou penalização é aplicado apenas por algoritmo: uma equipe humana revisa cada caso. O trabalhador é informado do motivo da medida, pode contestá-la pelo aplicativo e acompanhar a análise, com resposta em até 5 dias úteis. A solução busca reduzir erros, proteger dados pessoais conforme a LGPD e promover uma relação mais equilibrada entre tecnologia e trabalho.
 
 ---
 
 ## 5. Acessibilidade e inclusão digital
 
-* **Público excluído:** [Quem pode ficar de fora da tecnologia.]
-* **Requisitos WCAG e Dispositivos:** [Como a interface se adapta a smartphones de entrada e atende às diretrizes de acessibilidade.]
+* **Público excluído:  O RevisaAI considera os usuários que podem encontrar dificuldades de acesso à tecnologia, como trabalhadores com pouca familiaridade com aplicativos, pessoas com deficiência visual, auditiva, motora ou cognitiva, e usuários com dispositivos antigos ou acesso limitado à internet.
+* **Requisitos WCAG e Dispositivos:  A interface será desenvolvida com linguagem simples e sem termos técnicos, organizando o processo em três etapas: visualizar o motivo do bloqueio, enviar a contestação e acompanhar o andamento do caso. As informações terão fonte legível, possibilidade de ampliação do texto e botões identificados por texto e ícones. 
+
+O sistema será otimizado para smartphones de entrada, com versão leve, baixo consumo de dados e memória, compatibilidade com versões antigas do Android e funcionamento em conexões instáveis. Como alternativa, a contestação poderá ser realizada por outros canais de atendimento, como telefone e atendimento presencial. 
+
+A solução seguirá as diretrizes da WCAG 2.2, nível AA, incluindo contraste adequado, compatibilidade com leitores de tela, textos alternativos para imagens, legendas em conteúdos audiovisuais e navegação simples e previsível. 
 
 ---
 
 ## 6. Sustentabilidade
 
-* **TI Verde:** [Impacto energético da infraestrutura em nuvem utilizada.]
-* **Modelo Financeiro:** [Quem mantém e quem financia o projeto após o primeiro ano de operação.]
+* **TI Verde: TI Verde: 
+
+O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem práticas de eficiência energética e sustentabilidade. Os recursos computacionais serão dimensionados conforme a demanda, evitando consumo desnecessário de energia. A solução utilizará processos leves, armazenamento otimizado e políticas de eliminação ou anonimização de dados após o período de retenção definido, reduzindo o uso de recursos computacionais e o impacto ambiental. 
+* **Modelo Financeiro:
+* No primeiro ano, o projeto será financiado por investimento inicial, parcerias institucionais ou programas de incentivo à inovação. Após esse período, a manutenção poderá ser realizada por meio de contratos com plataformas de trabalho e instituições parceiras interessadas em melhorar a transparência e a segurança de seus sistemas. Os custos de revisão humana, auditorias e proteção de dados serão considerados no orçamento operacional para garantir a continuidade da solução. 
 
 ---
 
