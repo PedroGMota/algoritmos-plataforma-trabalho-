@@ -1,232 +1,139 @@
-# algoritmos-plataforma-trabalho-
+# ALGORITMOS DAS PLATAFORMAS DE TRABALHO
 
-# Projeto de Solução Digital: Algoritmos Transparentes no Trabalho por Aplicativo
-> **Entrega 2 — Dossiês de Problemas Sociais**  
+> **Entrega 2 — Dossiê Consultoria**  
 > **Disciplina:** Design Profissional · Turma 2N · 2026.2  
 > **Professor:** Cid Andrade  
 > **Dossiê Selecionado:** 14 — Algoritmos das plataformas de trabalho  
-> **Integrantes do Grupo (Consultoria):**
-> Júlio Cesar Marques de Sousa  RA: 04806969-8
-> Alessandro Tavares Brandão  RA: 47995092
-> Pedro Gonçalves da Mota  RA: 47998717
 
 ---
 
-## 1. Definição do Escopo e Recorte Estratégico
+## 1. Abertura
 
-### 1.1. Contextualização do Problema Social
-*Descreva sucintamente o problema da opacidade algorítmica enfrentado por motoristas e entregadores por aplicativo (explicabilidade de ganhos, bloqueios arbitrários e regras desconhecidas).*
-
-### 1.2. Recorte Escolhido e Justificativa
-- **Público-alvo específico:** *(Ex.: Entregadores de motocicleta de aplicativo / Motoristas de transporte de passageiros)*
-- **Recorte geográfico / operacional:** *(Ex.: Grande São Paulo / Etapa de contestação de bloqueios por suspeita de fraude de GPS)*
-- **Justificativa do recorte:** *(Por que este recorte foi escolhido? Qual a relevância social e a viabilidade técnica de resolvê-lo?)*
-
----
-
-## 2. Embasamento com Dados e Fontes Reais (2024–2026)
-
-> *Inserir aqui os dados estatísticos coletados pelo grupo. Lembre-se: todas as fontes devem ser dos últimos 2 anos (2024–2026).*
-
-- **Panorama do Trabalho por Aplicativo:** [Inserir dados de institutos como IPEA, IBGE, DIEESE ou Ministério do Trabalho sobre volume de trabalhadores e jornada média]
-- **Indicadores de Opacidade e Rendimento:** [Inserir pesquisas sobre variação inexplicada de tarifas, taxa de banimentos automáticos e percepção de renda]
-- **Impacto Social e Financeiro:** [Inserir dados sobre o perfil socioeconômico dos afetados e como o bloqueio repentino compromete o sustento familiar]
-- **Referências Bibliográficas:**
-  - [Link / Nome do Estudo 1 - Ano]
-  - [Link / Nome do Estudo 2 - Ano]
+* **Nome do Projeto:** [Nome da solução]
+* **Recorte Escolhido:** [Ex: Foco na transparência de tarifas e no fluxo de contestação de bloqueios sumários para entregadores de moto na Grande São Paulo]
+* **Integrantes do Grupo:**
+  * **Alessandro Tavares Brandão** | RGM: 47995092 | Área: [Ex: Engenharia de Dados] | GitHub: [@usuario1]
+  * **Júlio Cesar Marques de Sousa** | RGM:  04806969-8 | Área: [Ex: Ciência de Dados] | GitHub: [@usuario2]
+  * **Pedro Gonçalves da Mota** | RGM: 47998717 | Área: [Ex: Gestão] | GitHub: [@usuario3]
+  
 
 ---
 
-## 3. Arquitetura da Solução Digital (Abordagem Técnica)
+## 2. Análise do Problema
 
-### 3.1. Visão Geral da Solução
-*Descreva em alto nível o sistema proposto pela consultoria (ex.: uma plataforma de intermediação/auditoria de transparência com painel para o trabalhador, motor de explicabilidade e fluxo de suporte humano).*
+### 2.1. O Problema e Quem é Afetado
+* [Descreva o problema central da opacidade algorítmica, quedas de rendimento e bloqueios arbitrários de motoristas/entregadores.]
+* [Aponte quem é afetado, onde e com que intensidade, fundamentando com dados recentes (2024–2026).]
 
----
-
-### 3.2. Engenharia de Dados (Área Central)
-- **Modelagem e Ingestão de Dados:**
-  - Fontes de dados capturadas (telemetria GPS, timestamps de ofertas de corridas, taxas da plataforma, feedbacks de clientes).
-  - Estruturação do Data Pipeline (processamento em batch vs. streaming em tempo real).
-- **Trilha de Auditoria e Imutabilidade:**
-  - Estratégia de armazenamento do histórico de distribuições e bloqueios para impedir alteração retroativa dos dados.
-- **Governança e Integridade:**
-  - Padronização de dicionário de dados de corridas/entregas e conformidade com a LGPD (minimização de dados de localização sensíveis).
+### 2.2. Causas Tecnológicas e Insuficiência das Soluções Atuais
+* **Causas a investigar:** Precificação dinâmica opaca, distribuição de pedidos por critérios ocultos, desativações automáticas por suspeita de fraude de GPS e ausência de canal humano de recurso.
+* **Por que as ferramentas atuais não bastam:** [Explique por que as ouvidorias atuais das plataformas e os sistemas tradicionais falham em dar transparência ao trabalhador.]
 
 ---
 
-### 3.3. Ciência de Dados (Área Central)
-- **Modelos de Explicabilidade (XAI - Explainable AI):**
-  - Implementação de algoritmos auditáveis (ex.: SHAP, LIME) para decompor o valor de cada tarifa/corrida em variáveis transparentes (distância, tempo, demanda local, condições de tráfego).
-- **Detecção e Mitigação de Vieses:**
-  - Métricas estatísticas adotadas para identificar e corrigir discriminação algorítmica por região (ex.: bairros periféricos), horário ou tipo de veículo.
-- **Transparência de Métricas:**
-  - Como o modelo transforma distribuições complexas em "recibos explicativos" compreensíveis para o trabalhador leigo.
+## 3. Proposta tecnológica
+
+### 3.1. Experiência do Utilizador (Passo a Passo)
+1. [Descreva como o trabalhador interage com a solução na prática.]
+
+### 3.2. Arquitetura da Solução e Papel de Cada Área
+* **Engenharia de Dados (Área Central):** [Descreva os pipelines de dados, ingestão em tempo real e o registo imutável/auditável de históricos de corridas e ganhos.]
+* **Ciência de Dados (Área Central):** [Descreva os modelos de IA Explicável (XAI - ex: SHAP/LIME) para decompor o cálculo de tarifas e mitigar vieses regionais.]
+* **Gestão (Área Central):** [Descreva a governança algorítmica, o fluxo de suporte humano e o SLA de contestação de bloqueios.]
+* **Cloud (Área de Apoio):** [Descreva a infraestrutura em nuvem escalável para suportar picos de requisições.]
+* **Cibersegurança (Área de Apoio):** [Descreva os mecanismos de proteção contra fraudes de localização sem violar a privacidade do trabalhador.]
 
 ---
 
-### 3.4. Gestão de TI e Produto (Área Central)
-- **Desenho da Governança Algorítmica:**
-  - Regras de negócio para acionamento de bloqueios provisórios e exigência de revisão humana.
-- **Fluxo de Contestação e SLA:**
-  - Desenho do processo end-to-end de recurso (suporte humano) para trabalhadores desativados, garantindo resposta em até X horas.
-- **Métricas de Sucesso de TI (KPIs):**
-  - Indicadores do sistema (ex.: tempo médio de resolução de disputas, taxa de falsos positivos em suspensões, índice de satisfação do trabalhador com a clareza das tarifas).
+## 4. Análise ética
+
+### 4.1. Matriz de Riscos (Mínimo de 5 Riscos)
+| ID | Risco Identificado | Classificação (Alto/Médio/Baixo) | Impacto | Controlo Proposto |
+|:--|:--|:--|:--|:--|
+| 1 | [Ex: Viés de geolocalização punindo trabalhadores de periferias] | [Alto] | [Discriminação algorítmica] | [Auditoria periódica de equidade] |
+| 2 | [Risco 2] | | | |
+| 3 | [Risco 3] | | | |
+| 4 | [Risco 4] | | | |
+| 5 | [Risco 5] | | | |
+
+### 4.2. Decisão do Grupo
+* [Insira aqui, em até 10 linhas, a decisão fundamentada do grupo sobre a implantação do sistema.]
+
+### 4.3. Controles nos Seis Eixos
+1. **Transparência:** [Como a solução garante clareza.]
+2. **Revisão humana:** [Como o humano atua nas decisões.]
+3. **Minimização de dados:** [Quais dados são descartados/protegidos.]
+4. **Segurança:** [Proteção contra acessos indevidos.]
+5. **Teste de viés:** [Como o sistema testa discriminação.]
+6. **Canal de contestação:** [Como o usuário recorre de uma decisão.]
+
+### 4.4. Conformidade com a LGPD
+* **Dados tratados:** [Listar dados de localização, cadastrais e financeiros.]
+* **Finalidade e Base Legal:** [Explicar o enquadramento na LGPD.]
+* **Prazo de retenção e menores:** [Políticas de descarte.]
+
+### 4.5. Comunicado Público (Até 600 caracteres)
+> "[Escreva aqui o comunicado institucional da solução, respeitando rigorosamente o limite de 600 caracteres, incluindo espaços.]"
 
 ---
 
-### 3.5. Cloud Computing (Área de Apoio)
-- **Arquitetura de Nuvem e Escalabilidade:**
-  - Escolha do modelo de infraestrutura (SaaS/PaaS) para suportar picos de requisções nos horários de alta demanda sem gargalo de latência.
-- **Gestão de Custos:**
-  - Estratégia de dimensionamento elástico para manter os custos de computação previsíveis e sustentáveis.
+## 5. Acessibilidade e inclusão digital
+
+* **Público excluído:** [Quem pode ficar de fora da tecnologia.]
+* **Requisitos WCAG e Dispositivos:** [Como a interface se adapta a smartphones de entrada e atende às diretrizes de acessibilidade.]
 
 ---
 
-### 3.6. Cibersegurança (Área de Apoio)
-- **Prevenção contra Fraudes (GPS Spoofing):**
-  - Mecanismos de validação de autenticidade da localização e do dispositivo sem invadir a intimidade do usuário.
-- **Controle de Acesso e Auditoria (RBAC):**
-  - Definição rigorosa de privilégios de acesso aos dados de geolocalização e histórico financeiro dos motoristas.
+## 6. Sustentabilidade
+
+* **TI Verde:** [Impacto energético da infraestrutura em nuvem utilizada.]
+* **Modelo Financeiro:** [Quem mantém e quem financia o projeto após o primeiro ano de operação.]
 
 ---
 
-## 4. O Debate Público "Em Disputa"
+## 7. Impacto esperado
 
-> *Visão neutra dos dois lados do debate público sobre a regulamentação e a transparência do trabalho por aplicativo (sem citar nomes de partidos ou políticos).*
-
-- **Argumentos de Eficiência e Inovação (Visão Setorial/Mercado):**
-  - A flexibilidade total de horários como valor central do modelo.
-  - O risco de que a exigência de revelar segredos industriais ou engessar algoritmos encareça a operação, reduza a oferta de vagas ou afaste investimentos.
-- **Argumentos de Proteção e Direitos (Visão Trabalhista/Social):**
-  - A assimetria de poder entre a plataforma e o trabalhador.
-  - A necessidade de garantir transparência básica sobre ganhos e proibir a desativação arbitrária como direito fundamental ao trabalho digno.
+* **KPIs e Metas:** [Indicadores mensuráveis com metas claras, ex: tempo médio de resposta a contestações em até 48h.]
+* **Validação e Contingencia:** [Como ouvir os utilizadores antes de ampliar a escala e o que fazer se a solução não tiver adesão.]
 
 ---
 
-## 5. Cuidado Ético Central e Análise de Risco
+## 8. Quadro de decisões
 
-- **Identificação do Risco Ético Principal:**
-  - *Exemplo:* Como evitar que o monitoramento constante para prevenir fraudes se transforme em vigilância ostensiva e abusiva da rotina do trabalhador?
-- **Aplicação de Princípios Éticos e Regulatórios:**
-  - **Direito à Explicação e Revisão Humana (LGPD - Art. 20):** Como a solução garante a contestação real de decisões automatizadas.
-  - **Mitigação de Danos:** Estratégias para evitar que entregadores de certas regiões percam pontuação ou ofertas por evitarem áreas de alto risco.
-
----
-
-## 6. Conclusão e Próximos Passos
-
-- Breve síntese da viabilidade técnica da solução proposta e do impacto esperado na relação entre plataformas e trabalhadores por aplicativo.# Projeto de Solução Digital: Algoritmos Transparentes no Trabalho por Aplicativo
-> **Entrega 2 — Dossiês de Problemas Sociais**  
-> **Disciplina:** Design Profissional · Turma 2N · 2026.2  
-> **Professor:** Cid Andrade  
-> **Dossiê Selecionado:** 14 — Algoritmos das plataformas de trabalho  
-> **Integrantes do Grupo (Consultoria):** [Nome dos Integrantes]
+| Decisão Tomada | Alternativas Consideradas | Justificativa Técnica |
+|:--|:--|:--|
+| 1. [Ex: Uso de Framework XAI (SHAP)] | [Modelos black-box / Regressão simples] | [Garante explicabilidade local sem perder acurácia] |
+| 2. | | |
+| 3. | | |
+| 4. | | |
+| 5. | | |
 
 ---
 
-## 1. Definição do Escopo e Recorte Estratégico
+## 9. Capítulos individuais
 
-### 1.1. Contextualização do Problema Social
-*Descreva sucintamente o problema da opacidade algorítmica enfrentado por motoristas e entregadores por aplicativo (explicabilidade de ganhos, bloqueios arbitrários e regras desconhecidas).*
+### Capítulo de [Nome do Integrante 1]
+* **Papel no Projeto:** [Descrever atribuições confirmadas pelos commits no GitHub]
+* **Plano de Desenvolvimento (SMART):** [Metas de competências técnicas e comportamentais para 6 a 12 meses]
 
-### 1.2. Recorte Escolhido e Justificativa
-- **Público-alvo específico:** *(Ex.: Entregadores de motocicleta de aplicativo / Motoristas de transporte de passageiros)*
-- **Recorte geográfico / operacional:** *(Ex.: Grande São Paulo / Etapa de contestação de bloqueios por suspeita de fraude de GPS)*
-- **Justificativa do recorte:** *(Por que este recorte foi escolhido? Qual a relevância social e a viabilidade técnica de resolvê-lo?)*
+### Capítulo de [Nome do Integrante 2]
+* **Papel no Projeto:** [...]
+* **Plano de Desenvolvimento (SMART):** [...]
 
----
+### Capítulo de [Nome do Integrante 3]
+* **Papel no Projeto:** [...]
+* **Plano de Desenvolvimento (SMART):** [...]
 
-## 2. Embasamento com Dados e Fontes Reais (2024–2026)
+### Capítulo de [Nome do Integrante 4]
+* **Papel no Projeto:** [...]
+* **Plano de Desenvolvimento (SMART):** [...]
 
-> *Inserir aqui os dados estatísticos coletados pelo grupo. Lembre-se: todas as fontes devem ser dos últimos 2 anos (2024–2026).*
-
-- **Panorama do Trabalho por Aplicativo:** [Inserir dados de institutos como IPEA, IBGE, DIEESE ou Ministério do Trabalho sobre volume de trabalhadores e jornada média]
-- **Indicadores de Opacidade e Rendimento:** [Inserir pesquisas sobre variação inexplicada de tarifas, taxa de banimentos automáticos e percepção de renda]
-- **Impacto Social e Financeiro:** [Inserir dados sobre o perfil socioeconômico dos afetados e como o bloqueio repentino compromete o sustento familiar]
-- **Referências Bibliográficas:**
-  - [Link / Nome do Estudo 1 - Ano]
-  - [Link / Nome do Estudo 2 - Ano]
+### Feedback dos Colegas (Redigido em Conjunto)
+* [Breve parágrafo avaliando a dinâmica de colaboração do grupo na Entrega 2.]
 
 ---
 
-## 3. Arquitetura da Solução Digital (Abordagem Técnica)
+## 10. Referências
 
-### 3.1. Visão Geral da Solução
-*Descreva em alto nível o sistema proposto pela consultoria (ex.: uma plataforma de intermediação/auditoria de transparência com painel para o trabalhador, motor de explicabilidade e fluxo de suporte humano).*
-
----
-
-### 3.2. Engenharia de Dados (Área Central)
-- **Modelagem e Ingestão de Dados:**
-  - Fontes de dados capturadas (telemetria GPS, timestamps de ofertas de corridas, taxas da plataforma, feedbacks de clientes).
-  - Estruturação do Data Pipeline (processamento em batch vs. streaming em tempo real).
-- **Trilha de Auditoria e Imutabilidade:**
-  - Estratégia de armazenamento do histórico de distribuições e bloqueios para impedir alteração retroativa dos dados.
-- **Governança e Integridade:**
-  - Padronização de dicionário de dados de corridas/entregas e conformidade com a LGPD (minimização de dados de localização sensíveis).
-
----
-
-### 3.3. Ciência de Dados (Área Central)
-- **Modelos de Explicabilidade (XAI - Explainable AI):**
-  - Implementação de algoritmos auditáveis (ex.: SHAP, LIME) para decompor o valor de cada tarifa/corrida em variáveis transparentes (distância, tempo, demanda local, condições de tráfego).
-- **Detecção e Mitigação de Vieses:**
-  - Métricas estatísticas adotadas para identificar e corrigir discriminação algorítmica por região (ex.: bairros periféricos), horário ou tipo de veículo.
-- **Transparência de Métricas:**
-  - Como o modelo transforma distribuições complexas em "recibos explicativos" compreensíveis para o trabalhador leigo.
-
----
-
-### 3.4. Gestão de TI e Produto (Área Central)
-- **Desenho da Governança Algorítmica:**
-  - Regras de negócio para acionamento de bloqueios provisórios e exigência de revisão humana.
-- **Fluxo de Contestação e SLA:**
-  - Desenho do processo end-to-end de recurso (suporte humano) para trabalhadores desativados, garantindo resposta em até X horas.
-- **Métricas de Sucesso de TI (KPIs):**
-  - Indicadores do sistema (ex.: tempo médio de resolução de disputas, taxa de falsos positivos em suspensões, índice de satisfação do trabalhador com a clareza das tarifas).
-
----
-
-### 3.5. Cloud Computing (Área de Apoio)
-- **Arquitetura de Nuvem e Escalabilidade:**
-  - Escolha do modelo de infraestrutura (SaaS/PaaS) para suportar picos de requisções nos horários de alta demanda sem gargalo de latência.
-- **Gestão de Custos:**
-  - Estratégia de dimensionamento elástico para manter os custos de computação previsíveis e sustentáveis.
-
----
-
-### 3.6. Cibersegurança (Área de Apoio)
-- **Prevenção contra Fraudes (GPS Spoofing):**
-  - Mecanismos de validação de autenticidade da localização e do dispositivo sem invadir a intimidade do usuário.
-- **Controle de Acesso e Auditoria (RBAC):**
-  - Definição rigorosa de privilégios de acesso aos dados de geolocalização e histórico financeiro dos motoristas.
-
----
-
-## 4. O Debate Público "Em Disputa"
-
-> *Visão neutra dos dois lados do debate público sobre a regulamentação e a transparência do trabalho por aplicativo (sem citar nomes de partidos ou políticos).*
-
-- **Argumentos de Eficiência e Inovação (Visão Setorial/Mercado):**
-  - A flexibilidade total de horários como valor central do modelo.
-  - O risco de que a exigência de revelar segredos industriais ou engessar algoritmos encareça a operação, reduza a oferta de vagas ou afaste investimentos.
-- **Argumentos de Proteção e Direitos (Visão Trabalhista/Social):**
-  - A assimetria de poder entre a plataforma e o trabalhador.
-  - A necessidade de garantir transparência básica sobre ganhos e proibir a desativação arbitrária como direito fundamental ao trabalho digno.
-
----
-
-## 5. Cuidado Ético Central e Análise de Risco
-
-- **Identificação do Risco Ético Principal:**
-  - *Exemplo:* Como evitar que o monitoramento constante para prevenir fraudes se transforme em vigilância ostensiva e abusiva da rotina do trabalhador?
-- **Aplicação de Princípios Éticos e Regulatórios:**
-  - **Direito à Explicação e Revisão Humana (LGPD - Art. 20):** Como a solução garante a contestação real de decisões automatizadas.
-  - **Mitigação de Danos:** Estratégias para evitar que entregadores de certas regiões percam pontuação ou ofertas por evitarem áreas de alto risco.
-
----
-
-## 6. Conclusão e Próximos Passos
-
-- Breve síntese da viabilidade técnica da solução proposta e do impacto esperado na relação entre plataformas e trabalhadores por aplicativo.
+1. [Autor / Instituição]. **[Título da Fonte / Artigo / Relatório]**. [Ano (entre 2024 e 2026)]. Disponível em: <[Link]>. Acesso em: [Data].
+2. [Adicionar demais referências seguindo o mesmo padrão].
