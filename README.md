@@ -5,7 +5,10 @@
 > **Disciplina:** Design Profissional · Turma 2N · 2026.2  
 > **Professor:** Cid Andrade  
 > **Dossiê Selecionado:** 14 — Algoritmos das plataformas de trabalho  
-> **Integrantes do Grupo (Consultoria):** [Nome dos Integrantes]
+> **Integrantes do Grupo (Consultoria):**
+> Júlio Cesar Marques de Sousa  RA: 04806969-8
+> Alessandro Tavares Brandão  RA: 47995092
+> Pedro Gonçalves da Mota  RA: 47998717
 
 ---
 
