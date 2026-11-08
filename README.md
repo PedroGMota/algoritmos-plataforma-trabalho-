@@ -72,11 +72,11 @@ A escolha deste recorte é justificada pela alta frequência de desativações a
 ### 4.1. Matriz de Riscos (Mínimo de 5 Riscos)
 | ID | Risco Identificado | Classificação (Alto/Médio/Baixo) | Impacto | Controlo Proposto |
 |:--|:--|:--|:--|:--|
-| 1 | [Ex: Viés de geolocalização punindo trabalhadores de periferias] | [Alto] | [Discriminação algorítmica] | [Auditoria periódica de equidade] |
-| 2 | [Risco 2] | | | |
-| 3 | [Risco 3] | | | |
-| 4 | [Risco 4] | | | |
-| 5 | [Risco 5] | | | |
+| 1 | Bloqueios automáticos indevidos realizados pelo algoritmo  | Alto | Trabalhador perde acesso à plataforma e pode perder sua renda  | Criar revisão humana antes do bloqueio definitivo |
+| 2 | Viés algorítmico causando decisões discriminatórias contra trabalhadores | Alto | Tratamento desigual e redução de oportunidades de trabalho | Realizar testes de viés, auditorias periódicas e monitoramento dos resultados do algoritmo |
+| 3 | Controle excessivo do trabalhador por decisões automatizadas | Médio | Redução da autonomia e aumento da dependência da plataforma  | Criar regras de governança e supervisão humana |
+| 4 | Pressão causada pelo monitoramento constante do algoritmo | Médio | Prejuízos ao bem-estar e qualidade de trabalho | Avaliar impactos do sistema e criar limites de monitoramento |
+| 5 | Falta de explicação sobre decisões tomadas pelo algoritmo | Médio | Dificuldade de contestação e perda de confiança na plataforma  | Utilizar IA explicável e informar os motivos da decisão |
 
 ### 4.2. Decisão do Grupo
 * [Insira aqui, em até 10 linhas, a decisão fundamentada do grupo sobre a implantação do sistema.]
