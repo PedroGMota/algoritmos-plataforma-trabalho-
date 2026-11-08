@@ -124,10 +124,6 @@
 * **Papel no Projeto:** [...]
 * **Plano de Desenvolvimento (SMART):** [...]
 
-### Capítulo de [Nome do Integrante 4]
-* **Papel no Projeto:** [...]
-* **Plano de Desenvolvimento (SMART):** [...]
-
 ### Feedback dos Colegas (Redigido em Conjunto)
 * [Breve parágrafo avaliando a dinâmica de colaboração do grupo na Entrega 2.]
 
