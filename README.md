@@ -16,6 +16,7 @@
 * **Público-Alvo:** Entregadores de motocicletas e motoristas de aplicativo autônomos.
 * **Região:** Região Metropolitana de São Paulo (com foco em bairros periféricos).
 * **Etapa da Solução:** Fase pós-operação (momento da suspensão da conta e triagem do recurso).
+
 **Justificativa Técnica e Social:**
 A escolha deste recorte é justificado pela alta frequência de desativações automatizadas geradas por falhas da infraestrutura. Em regiões periféricas da Grande São Paulo, as oscilações na rede de dados móveis e desvios por obras fazem o algoritmo interpretar a queda de sinal como sinalização de fraude ou burla de rota. Como as plataformas não oferecem canal direto com operadores humanos, o trabalhador é suspenso temporariamente.
   * **Alessandro Tavares Brandão** | RGM: 47995092 | Área: ADS | GitHub: https://github.com/alessandro16014
