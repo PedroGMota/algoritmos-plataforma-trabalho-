@@ -160,9 +160,40 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 * **Papel no Projeto:** 
 * **Plano de Desenvolvimento (SMART):** [Metas de competências técnicas e comportamentais para 6 a 12 meses]
 
-### Capítulo de [Nome do Integrante 2]
-* **Papel no Projeto:** [...]
-* **Plano de Desenvolvimento (SMART):** [...]
+### Capítulo de Júlio César Marques de Sousa
+Entendido, aqui está o conteúdo organizado, sem alterar o que você escreveu.
+
+## Atuação: conformidade técnica, ética e governança do projeto
+
+- Pesquisa e análise sobre gestão algorítmica
+- Estudo e mapeamento de discriminação algorítmica
+- Construção da Matriz de Riscos da solução
+- Desenvolvimento e adequação à LGPD (Privacidade e Proteção de Dados)
+- Definição de requisitos de Acessibilidade e Inclusão Digital
+- Levantamento de diretrizes de Sustentabilidade (TI Verde)
+- Discussão e planejamento da estratégia de implantação via MVP (Produto Mínimo Viável)
+
+## Plano de Desenvolvimento Individual (SMART)
+
+**S (Específica)**\
+&#x20;Reduzir bloqueios indevidos realizados por algoritmos em plataformas de trabalho, implementando um fluxo de revisão humana obrigatório para contestações antes da tomada de decisão definitiva.
+**M (Mensurável)**
+- Diminuir em 30% a taxa de bloqueios indevidos identificados durante a fase piloto.
+- Responder a pelo menos 90% das contestações dos usuários no prazo máximo de 48 horas.
+**A (Atingível)**\
+&#x20;A meta será viabilizada por:
+- Alocação de equipe para análise humana dedicada
+- Fornecimento de explicações claras sobre as decisões do algoritmo
+- Acompanhamento contínuo dos principais motivos de bloqueio
+**R (Relevante)**\
+&#x20;A eliminação de bloqueios injustos:
+- Protege a renda dos trabalhadores
+- Aumenta a transparência do sistema
+- Fortalece a confiança da comunidade no uso de soluções automatizadas
+**T (Temporal)**\
+&#x20;Atingir e consolidar os indicadores no período de 6 meses após o lançamento do projeto piloto, com avaliação final em até 12 meses.
+
+Se quiser, posso gerar isso em Word ou PDF. (o que tu achou???)
 
 ### Capítulo de Pedro Gonçalves da Mota
 * **Papel no Projeto:** Responsável pela escrita da Abertura (Seção 1), Análise do Problema (Seção 2), Proposta Tecnológica (Seção 3), Quadro de Decisões. 
