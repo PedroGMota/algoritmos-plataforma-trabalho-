@@ -187,13 +187,24 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 
 6. SUPREMO TRIBUNAL FEDERAL (STF). Tema 1291: Reconhecimento de vínculo empregatício entre motorista de aplicativo de prestação de serviços de transporte e a empresa administradora de plataforma digital. Brasília: STF, 2024. Disponível em: https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=1291.
 
-7. https://ojs.veredasjournal.com/index.php/veredas/article/view/7103
+7. Portal JOTA (Maio de 2026):** Artigo *"STF decide trabalho em plataformas diante do fracasso do Congresso"*, abordando o bloqueio estrutural do legislativo perante pautas como o PL 152/2025 e outros PLPs, além da nova fronteira do controle algorítmico nas relações de trabalho.
+       [Link de referência (JOTA)](https://www.jota.info/opiniao-e-analise/artigos/stf-decide-trabalho-em-plataformas-diante-do-fracasso-do-congresso)
+   
+8. TJDFT - Tribunal de Justiça do Distrito Federal e dos Territórios (Janeiro de 2026):** Decisão jurisprudencial unânime onde a plataforma de mobilidade foi condenada a indenizar um motorista por lucros cessantes devido a uma *"suspensão prolongada sem justa causa e sem demonstração concreta de infração"*. O caso fundamenta a necessidade da revisão humana em 48h proposta pelo Rota Clara.
+       [Link de referência (TJDFT Oficial)](https://www.tjdft.jus.br/institucional/imprensa/noticias/2026/janeiro/tjdft-condena-plataforma-a-indenizar-motorista-por-suspensao-prolongada-sem-justa-causa)
 
-8. https://seer.sis.puc-campinas.edu.br/direitoshumanos/article/view/5201
+9. Painel LGPD nos Tribunais / Cedis-IDP (Junho de 2025):** Relatório analítico ressaltando os direitos dos entregadores sobre decisões automatizadas, especificamente a necessidade de uma explicação das razões de bloqueio e do direito assegurado à revisão humana baseada no Art. 20 da LGPD.
+       [Link de referência (Relatório LGPD)](https://static.jusbr.com/painel-lgpd/edicoes/relatorio-do-painel-lgpd-nos-tribunais-2026.pdf)
 
-9. https://www.scielo.br/j/read/a/8KzGRQSrSPnDWRfWpcqbgFy/?lang=pt
+10. Mobile Time (Dezembro de 2024):** Cobertura jornalística sobre os modelos de regulamentação do trabalho autônomo por plataformas em toda a América Latina e os  desafios impostos pelas decisões automatizadas opacas sobre a jornada do trabalhador.
+       [Link de referência (Mobile Time)](https://www.mobiletime.com.br/noticias/20/12/2024/trabalhadores-de-apps/)
+11. https://ojs.veredasjournal.com/index.php/veredas/article/view/7103
 
-10. https://ctbdigital.com.br/artigo/art162/
+12. https://seer.sis.puc-campinas.edu.br/direitoshumanos/article/view/5201
 
-11. https://d1wqtxts1xzle7.cloudfront.net/40610442/sentencas_parciais-libre.pdf?1449162991=&response-content-disposition=inline%3B+filename%3DSentencas_parciais_Consideracoes_a_parti.pdf&Expires=1794177228&Signature=f5HwuGpcvf9IuWMTp4NOv6cUgAuDerMmWxGtGXeeCLnUMDUEboZ~7dWYHPAPjzoH9gEoXfx7fV37w73ax5icgBAmxgRc-G7058cfMBPRHw8aQiq0UZyS6fPDCiVb~oKDpuSPkmldiuBbPmkX5fPXFRbNOsCORpjkKZMV4HzB4C~XS4Jx0vYUCAzR~AI6gNZ~61ufgQ9PqxLFABT95LfTjnOhDM-7enRaz7dsmWOofrx~sblIuJcO7mZ3SvGz47FDYppY8NjmgsTQku1zorVu3iYqDLyp5d-Edceg3J3m-IDWucqNUhiVAC1E9iH7mV33a0UplSbKIzGR~1gjNN45Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
-12. 
+13. https://www.scielo.br/j/read/a/8KzGRQSrSPnDWRfWpcqbgFy/?lang=pt
+
+14. https://ctbdigital.com.br/artigo/art162/
+
+15. https://d1wqtxts1xzle7.cloudfront.net/40610442/sentencas_parciais-libre.pdf?1449162991=&response-content-disposition=inline%3B+filename%3DSentencas_parciais_Consideracoes_a_parti.pdf&Expires=1794177228&Signature=f5HwuGpcvf9IuWMTp4NOv6cUgAuDerMmWxGtGXeeCLnUMDUEboZ~7dWYHPAPjzoH9gEoXfx7fV37w73ax5icgBAmxgRc-G7058cfMBPRHw8aQiq0UZyS6fPDCiVb~oKDpuSPkmldiuBbPmkX5fPXFRbNOsCORpjkKZMV4HzB4C~XS4Jx0vYUCAzR~AI6gNZ~61ufgQ9PqxLFABT95LfTjnOhDM-7enRaz7dsmWOofrx~sblIuJcO7mZ3SvGz47FDYppY8NjmgsTQku1zorVu3iYqDLyp5d-Edceg3J3m-IDWucqNUhiVAC1E9iH7mV33a0UplSbKIzGR~1gjNN45Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+ 
