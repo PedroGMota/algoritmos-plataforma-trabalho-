@@ -129,20 +129,28 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 
 ## 7. Impacto esperado
 
-* **KPIs e Metas:** [Indicadores mensuráveis com metas claras, ex: tempo médio de resposta a contestações em até 48h.]
-* **Validação e Contingencia:** [Como ouvir os utilizadores antes de ampliar a escala e o que fazer se a solução não tiver adesão.]
+- **KPIs e Metas:**
+  - **SLA de Resolução:** Tempo máximo de 48 horas para a análise humana e decisão final sobre a contestação do trabalhador.
+  - **Taxa de Falsos-Positivos:** Redução de pelo menos 80% nos bloqueios definitivos indevidos causados exclusivamente por falhas de infraestrutura de rede e GPS.
+  - **Mitigação de Passivo Judicial:** Diminuir drasticamente as condenações das plataformas parceiras por "suspensão prolongada sem justa causa e violação da ampla defesa", alinhando a operação à jurisprudência atual.
+  - **Adoção Regional:** Atingir a adesão de 30% dos motoboys ativos na Zona Leste de São Paulo nos primeiros 6 meses do projeto piloto.
 
+- **Validação e Contingência:**
+  - **Validação:** Realização de rodadas quinzenais de feedback junto a coletivos e associações de entregadores na região piloto, além de auditorias mensais de viés para garantir que a IA não esteja penalizando rotas específicas.
+  - **Contingência:** Caso o modelo de licenciamento B2B (API) sofra resistência inicial das plataformas devido aos recentes impasses regulatórios e falhas de avanço legislativo (como visto ao longo de 2025 e 2026), a Rota Clara adotará a contingência de atuar como uma "LegalTech B2C". O aplicativo emitirá laudos técnicos gratuitos de telemetria aos motoristas, servindo como base probatória material para que eles possam buscar seus direitos nos tribunais e Procons, forçando indiretamente a adesão das empresas pela via jurídica.
+
+ 
 ---
 
 ## 8. Quadro de decisões
 
 | Decisão Tomada | Alternativas Consideradas | Justificativa Técnica |
 |:--|:--|:--|
-| 1. [Ex: Uso de Framework XAI (SHAP)] | [Modelos black-box / Regressão simples] | [Garante explicabilidade local sem perder acurácia] |
-| 2. | | |
-| 3. | | |
-| 4. | | |
-| 5. | | |
+| 1. **Uso de Framework XAI (SHAP)** | Modelos *black-box* (caixa-preta) ou Regressão Linear simples | Garante a **explicabilidade local**, permitindo identificar exatamente qual variável do percurso ativou o gatilho de fraude. Atende ao Art. 20 da LGPD, que exige revisão, sem necessidade de quebrar o segredo industrial das plataformas parceiras. |
+| 2. **Revisão Humana com SLA de 48h** | Automação total via Chatbot com IA Generativa | Mitiga os crescentes riscos jurídicos e atende decisões recentes dos tribunais (2025/2026) que proíbem o bloqueio sumário sem que um humano avalie a defesa do trabalhador. A automação integral manteria a infração regulatória. |
+| 3. **Piloto Regional (Zona Leste SP)** | Lançamento Nacional "Big Bang" (todas as regiões simultâneas) | Reduz riscos operacionais ao focar em um ambiente hiper-segmentado conhecido por instabilidades crônicas de rede. Permite validar a acurácia do modelo SHAP antes do consumo massivo de infraestrutura em nuvem. |
+| 4. **Armazenamento em Nuvem Imutável** | Bancos de dados relacionais tradicionais sob controle exclusivo da plataforma | Garante uma **trilha de auditoria** neutra e inviolável (Logs seguros). Como a Rota Clara atua como mediadora, a integridade da prova é fundamental caso a contestação evolua para a esfera jurídica. |
+| 5. **Modelo de Negócios B2B (API as a Service)** | Aplicativo B2C com mensalidade paga pelo entregador/motorista | O público-alvo já sofre com precarização de renda e alta informalidade. Monetizar através das empresas (que pagam pela mitigação de risco, compliance de ESG e redução de processos judiciais) viabiliza o projeto de forma ética. |
 
 ---
 
