@@ -21,6 +21,7 @@
 - **Público-alvo:** entregadores de motocicleta e motoristas de aplicativo autônomos.
 - **Região:** Região Metropolitana de São Paulo, com foco em bairros periféricos. O piloto será na Zona Leste da capital.
 - **Etapa da solução:** pós-operação, ou seja, o momento em que a plataforma já suspendeu a conta e o trabalhador precisa contestar.
+
 **Justificativa:** nas periferias da Grande São Paulo, a rede de dados móveis oscila e obras desviam rotas. O grupo parte da hipótese de que o algoritmo das plataformas pode ler essa queda de sinal como fraude ou burla de rota e suspender a conta. Essa hipótese não está comprovada por dado oficial e será validada no piloto (seção 7). Como as plataformas não oferecem canal direto com uma pessoa, o trabalhador fica sem renda e sem como se defender.
  
 ---
@@ -29,24 +30,24 @@
  
 ### 2.1. O problema e quem é afetado
  
-No Brasil, cerca de 1,96 milhão de pessoas trabalharam por aplicativos de transporte e entrega em 2025, das quais 1,2 milhão em transporte de passageiros [1][2][3]. Entre os que têm o aplicativo como ocupação principal, 84,4% são homens e 47% têm de 25 a 39 anos [1]. Entre todos os trabalhadores de plataforma, 72,1% estão na informalidade e 34% têm cobertura previdenciária [1]. Para motoristas de transporte e entregadores, o motivo mais citado para trabalhar por aplicativo foi não conseguir outro trabalho [1]. Os dados são nacionais (PNAD Contínua, edição experimental do IBGE, contestada pela Amobitec, associação das plataformas) e não mostram o recorte da periferia de São Paulo [1].
+No Brasil, cerca de 1,96 milhão de pessoas trabalharam por aplicativos de transporte e entrega em 2025, das quais 1,2 milhão em transporte de passageiros. Entre os que têm o aplicativo como ocupação principal, 84,4% são homens e 47% têm de 25 a 39 anos. Entre todos os trabalhadores de plataforma, 72,1% estão na informalidade e 34% têm cobertura previdenciária. Para motoristas de transporte e entregadores, o motivo mais citado para trabalhar por aplicativo foi não conseguir outro trabalho. Os dados são nacionais (PNAD Contínua, edição experimental do IBGE, contestada pela Amobitec, associação das plataformas) e não mostram o recorte da periferia de São Paulo.
  
-O problema central são as **desativações automatizadas**: a plataforma suspende ou bane a conta sem aviso prévio, sem explicar o motivo real e sem uma defesa que possa ser feita a um ser humano. A literatura jurídica recente descreve esse poder de bloquear o acesso sem aviso como uma das faces da gestão algorítmica do trabalho [10].
+O problema central são as **desativações automatizadas**: a plataforma suspende ou bane a conta sem aviso prévio, sem explicar o motivo real e sem uma defesa que possa ser feita a um ser humano. A literatura jurídica recente descreve esse poder de bloquear o acesso sem aviso como uma das faces da gestão algorítmica do trabalho.
  
 **Quem é afetado no recorte:** entregadores de moto e motoristas de aplicativo da Zona Leste, de Guarulhos e do ABC. Dois fatores agravam a situação:
  
-- **Dependência da renda diária:** a maioria está na informalidade [1]. Dois ou três dias de bloqueio podem zerar o orçamento da família.
+- **Dependência da renda diária:** a maioria está na informalidade. Dois ou três dias de bloqueio podem zerar o orçamento da família.
 - **Infraestrutura precária na periferia:** a rede de dados oscila e o GPS falha em vias estreitas ou com obras. Se o algoritmo tratar isso como anomalia, a conta pode ser suspensa por uma falha de infraestrutura, e não por culpa do trabalhador.
 ### 2.2. Causas tecnológicas
  
-- **Algoritmo caixa-preta:** a plataforma bloqueia a conta, mas não informa qual dado gerou o bloqueio [10].
+- **Algoritmo caixa-preta:** a plataforma bloqueia a conta, mas não informa qual dado gerou o bloqueio.
 - **Falta de contexto local:** o filtro antifraude pode não diferenciar uma sombra de cobertura de rede de uma tentativa real de falsificar o GPS.
 - **Atendimento por chatbot:** a contestação cai em respostas prontas e genéricas, sem opção de falar com uma pessoa.
-- **Direito à revisão sem canal efetivo:** o art. 20 da LGPD garante ao titular o direito de **solicitar revisão** de decisões tomadas unicamente por tratamento automatizado (art. 20 da Lei nº 13.709/2018, a LGPD). A exigência de que essa revisão seja feita por pessoa humana foi vetada em 2019 (Lei nº 13.853/2019), e a ANPD ainda discute como regulamentar o tema: a Nota Técnica nº 12/2025 registrou divergência entre os participantes sobre tornar a revisão humana obrigatória [4]. Na prática, o art. 20 foi o dispositivo da LGPD mais invocado nas decisões judiciais analisadas pelo Painel LGPD nos Tribunais de 2026, inclusive para exigir explicação de bloqueios automatizados e revisão humana [5]. Por isso a revisão humana do Rota Clara é uma escolha de projeto, apoiada em decisões judiciais como a do TJDFT [6], e não uma obrigação direta da lei. Projetos de lei sobre trabalho em plataformas na América Latina já incluem a transparência algorítmica entre os direitos previstos [9].
-- **Segredo industrial:** o próprio art. 20, §1º, manda informar os critérios da decisão automatizada **respeitando os segredos comercial e industrial**. As plataformas usam esse limite para não detalhar o algoritmo. A solução precisa trazer transparência sem exigir o código-fonte.
+- **Direito à revisão sem canal efetivo:** o art. 20 da LGPD garante ao titular o direito de **solicitar revisão** de decisões tomadas unicamente por tratamento automatizado (art. 20 da Lei nº 13.709/2018, a LGPD). A exigência de que essa revisão seja feita por pessoa humana foi vetada em 2019 (Lei nº 13.853/2019), e a ANPD ainda discute como regulamentar o tema: a Nota Técnica nº 12/2025 registrou divergência entre os participantes sobre tornar a revisão humana obrigatória. Na prática, o art. 20 foi o dispositivo da LGPD mais invocado nas decisões judiciais analisadas pelo Painel LGPD nos Tribunais de 2026, inclusive para exigir explicação de bloqueios automatizados e revisão humana. Por isso a revisão humana do Rota Clara é uma escolha de projeto, apoiada em decisões judiciais como a do TJDFT, e não uma obrigação direta da lei. Projetos de lei sobre trabalho em plataformas na América Latina já incluem a transparência algorítmica entre os direitos previstos.
+- **Segredo industrial:** o próprio art. 20, 1º, manda informar os critérios da decisão automatizada **respeitando os segredos comercial e industrial**. As plataformas usam esse limite para não detalhar o algoritmo. A solução precisa trazer transparência sem exigir o código-fonte.
 ### 2.3. O que já existe e por que não basta
  
-Hoje o trabalhador só tem o canal da própria plataforma (chatbot, resposta padronizada) ou a via judicial, que é lenta e cara para quem vive de renda diária. No caso julgado pelo TJDFT em 2026, um motorista ficou com a conta suspensa por cerca de 16 semanas, a plataforma não apresentou prova concreta da infração, e a conta só foi reativada depois que ele entrou na Justiça [6]. Não há um intermediário independente que junte as evidências técnicas do caso (telemetria e cobertura de rede), explique o motivo da suspensão e garanta uma análise humana em prazo curto.
+Hoje o trabalhador só tem o canal da própria plataforma (chatbot, resposta padronizada) ou a via judicial, que é lenta e cara para quem vive de renda diária. No caso julgado pelo TJDFT em 2026, um motorista ficou com a conta suspensa por cerca de 16 semanas, a plataforma não apresentou prova concreta da infração, e a conta só foi reativada depois que ele entrou na Justiça. Não há um intermediário independente que junte as evidências técnicas do caso (telemetria e cobertura de rede), explique o motivo da suspensão e garanta uma análise humana em prazo curto.
  
 ---
  
@@ -79,7 +80,7 @@ O grupo é formado por três alunos de ADS. As áreas abaixo descrevem o trabalh
 ### 3.3. O que a tecnologia não resolve
  
 - Não obriga a plataforma a aderir; depende de contrato (ver contingência na seção 7).
-- Não muda as regras de negócio da plataforma nem decide a questão do vínculo de emprego, que está no STF (Tema 1291) e, até outubro de 2026, ainda não tinha tese fixada [7].
+- Não muda as regras de negócio da plataforma nem decide a questão do vínculo de emprego, que está no STF (Tema 1291) e, até outubro de 2026, ainda não tinha tese fixada.
 - Não corrige o mau sinal de rede nem a renda perdida durante a suspensão.
 - Não elimina o erro humano do operador; por isso a revisão é auditada (seção 4.3).
 - Não impede que um fraudador use o canal; a triagem e a validação do dispositivo reduzem esse risco, mas não o zeram.
@@ -119,7 +120,7 @@ O grupo é formado por três alunos de ADS. As áreas abaixo descrevem o trabalh
 - **Base legal:** execução de contrato (art. 7º, V) e legítimo interesse em corrigir erros automatizados e garantir a segurança do serviço (art. 7º, IX).
 - **Prazo de retenção (proposta do grupo):** telemetria sem contestação, 90 dias; casos contestados, 12 meses após a decisão. Depois disso, os dados são eliminados ou anonimizados. O armazenamento é imutável durante o período de retenção.
 - **Menores:** o sistema não trata dados de menores de 18 anos, pois a atividade exige maioridade.
-### 4.5. Comunicado público (497 caracteres)
+### 4.5. Comunicado público
  
 > O Rota Clara ajuda entregadores e motoristas de aplicativo da Grande São Paulo a contestar suspensões automáticas de conta. Quando a suspensão ocorre, o trabalhador recebe uma explicação em linguagem simples, envia a contestação pelo celular e tem o caso analisado por uma pessoa em até 48 horas, com resposta fundamentada. Os dados são usados só para essa análise, protegidos conforme a LGPD e eliminados ou anonimizados depois. A fase inicial é um piloto com motoboys da Zona Leste de São Paulo.
  
@@ -142,7 +143,7 @@ O grupo é formado por três alunos de ADS. As áreas abaixo descrevem o trabalh
  
 ## 6. Sustentabilidade
  
-**Impacto ambiental:** a Agência Internacional de Energia projeta que o consumo de eletricidade dos data centers no mundo deve mais que dobrar até 2030, para cerca de 945 TWh [11]. Por isso o projeto trata a eficiência como requisito. Os maiores consumos do Rota Clara vêm do armazenamento da telemetria e do processamento em streaming. Para reduzir:
+**Impacto ambiental:** a Agência Internacional de Energia projeta que o consumo de eletricidade dos data centers no mundo deve mais que dobrar até 2030, para cerca de 945 TWh. Por isso o projeto trata a eficiência como requisito. Os maiores consumos do Rota Clara vêm do armazenamento da telemetria e do processamento em streaming. Para reduzir:
  
 - coletar só a janela do evento e eliminar ou anonimizar os dados ao fim da retenção;
 - dimensionar a nuvem conforme a demanda, com escala automática;
@@ -171,7 +172,7 @@ O grupo é formado por três alunos de ADS. As áreas abaixo descrevem o trabalh
 - Critério para ampliar: atingir as metas por dois meses seguidos.
 ### Contingência: se a solução não pegar
  
-O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ainda não fixou tese no Tema 1291 [7][8]. Em junho de 2026 a OIT aprovou a Convenção nº 193 sobre trabalho em plataformas, enviada ao Congresso, mas sem efeito direto no Brasil por enquanto [12]. Se as plataformas resistirem ao modelo B2B (API), o Rota Clara muda para o modelo **B2C gratuito**. O app emite laudos técnicos de telemetria ao trabalhador, que pode usá-los como prova em tribunais e no Procon, sem depender da adesão das empresas.
+O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ainda não fixou tese no Tema 1291. Em junho de 2026 a OIT aprovou a Convenção nº 193 sobre trabalho em plataformas, enviada ao Congresso, mas sem efeito direto no Brasil por enquanto. Se as plataformas resistirem ao modelo B2B (API), o Rota Clara muda para o modelo **B2C gratuito**. O app emite laudos técnicos de telemetria ao trabalhador, que pode usá-los como prova em tribunais e no Procon, sem depender da adesão das empresas.
  
 ---
  
@@ -180,7 +181,7 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 | Decisão | Alternativas consideradas | Por que esta |
 |:--|:--|:--|
 | **1. IA explicável (SHAP) no modelo de triagem** | Modelo caixa-preta ou regressão linear simples | Mostra qual variável do percurso disparou o alerta e gera o Recibo Explicativo. Atende ao direito à explicação previsto no art. 20 da LGPD sem exigir o código-fonte da plataforma. |
-| **2. Revisão humana com SLA de 48 horas** | Chatbot ou IA generativa decidindo tudo | O TJDFT (jan/2026) condenou uma plataforma por suspensão de cerca de 16 semanas sem prova da infração [6]. A LGPD garante a revisão, mas não exige que seja humana [4]; por isso o grupo adota a revisão humana como escolha de projeto, com prazo curto. |
+| **2. Revisão humana com SLA de 48 horas** | Chatbot ou IA generativa decidindo tudo | O TJDFT (jan/2026) condenou uma plataforma por suspensão de cerca de 16 semanas sem prova da infração. A LGPD garante a revisão, mas não exige que seja humana; por isso o grupo adota a revisão humana como escolha de projeto, com prazo curto. |
 | **3. Piloto na Zona Leste de SP** | Lançamento nacional em todas as regiões | Região com muitos trabalhadores e falhas conhecidas de rede. Permite validar o modelo e o painel antes de gastar mais infraestrutura. |
 | **4. Armazenamento em nuvem imutável (append-only)** | Banco relacional controlado só pela plataforma | Cria uma trilha de auditoria neutra e sem alteração. Como o Rota Clara é mediador, a integridade da prova importa se o caso for à Justiça. |
 | **5. Modelo B2B (API)** | App B2C com mensalidade paga pelo trabalhador | O público já tem renda precária e alta informalidade [1]. Quem paga é a plataforma, que ganha com menos erros, mais conformidade com a LGPD e menos processos. O risco de conflito de interesse é tratado com auditoria externa. |
