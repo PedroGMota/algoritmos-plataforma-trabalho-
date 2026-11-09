@@ -186,3 +186,14 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 5. TRIBUNAL SUPERIOR DO TRABALHO (TST). TST suspende perícia técnica no algoritmo de plataforma de táxis. Brasília: TST, 2024. Disponível em: https://www.tst.jus.br/-/tst-suspende-per%C3%ADcia-t%C3%A9cnica-no-algoritmo-de-plataforma-de-t%C3%A1xis.
 
 6. SUPREMO TRIBUNAL FEDERAL (STF). Tema 1291: Reconhecimento de vínculo empregatício entre motorista de aplicativo de prestação de serviços de transporte e a empresa administradora de plataforma digital. Brasília: STF, 2024. Disponível em: https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=1291.
+
+7. https://ojs.veredasjournal.com/index.php/veredas/article/view/7103
+
+8. https://seer.sis.puc-campinas.edu.br/direitoshumanos/article/view/5201
+
+9. https://www.scielo.br/j/read/a/8KzGRQSrSPnDWRfWpcqbgFy/?lang=pt
+
+10. https://ctbdigital.com.br/artigo/art162/
+
+11. https://d1wqtxts1xzle7.cloudfront.net/40610442/sentencas_parciais-libre.pdf?1449162991=&response-content-disposition=inline%3B+filename%3DSentencas_parciais_Consideracoes_a_parti.pdf&Expires=1794177228&Signature=f5HwuGpcvf9IuWMTp4NOv6cUgAuDerMmWxGtGXeeCLnUMDUEboZ~7dWYHPAPjzoH9gEoXfx7fV37w73ax5icgBAmxgRc-G7058cfMBPRHw8aQiq0UZyS6fPDCiVb~oKDpuSPkmldiuBbPmkX5fPXFRbNOsCORpjkKZMV4HzB4C~XS4Jx0vYUCAzR~AI6gNZ~61ufgQ9PqxLFABT95LfTjnOhDM-7enRaz7dsmWOofrx~sblIuJcO7mZ3SvGz47FDYppY8NjmgsTQku1zorVu3iYqDLyp5d-Edceg3J3m-IDWucqNUhiVAC1E9iH7mV33a0UplSbKIzGR~1gjNN45Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+12. 
