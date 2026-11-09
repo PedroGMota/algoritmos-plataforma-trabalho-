@@ -186,3 +186,15 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 5. TRIBUNAL SUPERIOR DO TRABALHO (TST). TST suspende perícia técnica no algoritmo de plataforma de táxis. Brasília: TST, 2024. Disponível em: https://www.tst.jus.br/-/tst-suspende-per%C3%ADcia-t%C3%A9cnica-no-algoritmo-de-plataforma-de-t%C3%A1xis.
 
 6. SUPREMO TRIBUNAL FEDERAL (STF). Tema 1291: Reconhecimento de vínculo empregatício entre motorista de aplicativo de prestação de serviços de transporte e a empresa administradora de plataforma digital. Brasília: STF, 2024. Disponível em: https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=1291.
+
+7. Portal JOTA (Maio de 2026):** Artigo *"STF decide trabalho em plataformas diante do fracasso do Congresso"*, abordando o bloqueio estrutural do legislativo perante pautas como o PL 152/2025 e outros PLPs, além da nova fronteira do controle algorítmico nas relações de trabalho.
+       [Link de referência (JOTA)](https://www.jota.info/opiniao-e-analise/artigos/stf-decide-trabalho-em-plataformas-diante-do-fracasso-do-congresso)
+   
+8. TJDFT - Tribunal de Justiça do Distrito Federal e dos Territórios (Janeiro de 2026):** Decisão jurisprudencial unânime onde a plataforma de mobilidade foi condenada a indenizar um motorista por lucros cessantes devido a uma *"suspensão prolongada sem justa causa e sem demonstração concreta de infração"*. O caso fundamenta a necessidade da revisão humana em 48h proposta pelo Rota Clara.
+       [Link de referência (TJDFT Oficial)](https://www.tjdft.jus.br/institucional/imprensa/noticias/2026/janeiro/tjdft-condena-plataforma-a-indenizar-motorista-por-suspensao-prolongada-sem-justa-causa)
+
+9. Painel LGPD nos Tribunais / Cedis-IDP (Junho de 2025):** Relatório analítico ressaltando os direitos dos entregadores sobre decisões automatizadas, especificamente a necessidade de uma explicação das razões de bloqueio e do direito assegurado à revisão humana baseada no Art. 20 da LGPD.
+       [Link de referência (Relatório LGPD)](https://static.jusbr.com/painel-lgpd/edicoes/relatorio-do-painel-lgpd-nos-tribunais-2026.pdf)
+
+10. Mobile Time (Dezembro de 2024):** Cobertura jornalística sobre os modelos de regulamentação do trabalho autônomo por plataformas em toda a América Latina e os  desafios impostos pelas decisões automatizadas opacas sobre a jornada do trabalhador.
+       [Link de referência (Mobile Time)](https://www.mobiletime.com.br/noticias/20/12/2024/trabalhadores-de-apps/)
