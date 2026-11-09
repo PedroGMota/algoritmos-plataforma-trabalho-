@@ -197,7 +197,8 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
        [Link de referência (Relatório LGPD)](https://static.jusbr.com/painel-lgpd/edicoes/relatorio-do-painel-lgpd-nos-tribunais-2026.pdf)
 
 10. Mobile Time (Dezembro de 2024):** Cobertura jornalística sobre os modelos de regulamentação do trabalho autônomo por plataformas em toda a América Latina e os  desafios impostos pelas decisões automatizadas opacas sobre a jornada do trabalhador.
-       [Link de referência (Mobile Time)](https://www.mobiletime.com.br/noticias/20/12/2024/trabalhadores-de-apps/)
+https://www.mobiletime.com.br/noticias/20/12/2024/trabalhadores-de-apps/
+
 11. https://ojs.veredasjournal.com/index.php/veredas/article/view/7103
 
 12. https://seer.sis.puc-campinas.edu.br/direitoshumanos/article/view/5201
@@ -206,5 +207,5 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 
 14. https://ctbdigital.com.br/artigo/art162/
 
-15. https://d1wqtxts1xzle7.cloudfront.net/40610442/sentencas_parciais-libre.pdf?1449162991=&response-content-disposition=inline%3B+filename%3DSentencas_parciais_Consideracoes_a_parti.pdf&Expires=1794177228&Signature=f5HwuGpcvf9IuWMTp4NOv6cUgAuDerMmWxGtGXeeCLnUMDUEboZ~7dWYHPAPjzoH9gEoXfx7fV37w73ax5icgBAmxgRc-G7058cfMBPRHw8aQiq0UZyS6fPDCiVb~oKDpuSPkmldiuBbPmkX5fPXFRbNOsCORpjkKZMV4HzB4C~XS4Jx0vYUCAzR~AI6gNZ~61ufgQ9PqxLFABT95LfTjnOhDM-7enRaz7dsmWOofrx~sblIuJcO7mZ3SvGz47FDYppY8NjmgsTQku1zorVu3iYqDLyp5d-Edceg3J3m-IDWucqNUhiVAC1E9iH7mV33a0UplSbKIzGR~1gjNN45Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
  
