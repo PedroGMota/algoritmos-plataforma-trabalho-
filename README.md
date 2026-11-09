@@ -156,20 +156,20 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 
 ## 9. Capítulos individuais
 
-### Capítulo de [Nome do Integrante 1]
-* **Papel no Projeto:** [Descrever atribuições confirmadas pelos commits no GitHub]
+### Capítulo de [nome do integrante]
+* **Papel no Projeto:** 
 * **Plano de Desenvolvimento (SMART):** [Metas de competências técnicas e comportamentais para 6 a 12 meses]
 
 ### Capítulo de [Nome do Integrante 2]
 * **Papel no Projeto:** [...]
 * **Plano de Desenvolvimento (SMART):** [...]
 
-### Capítulo de [Nome do Integrante 3]
-* **Papel no Projeto:** [...]
-* **Plano de Desenvolvimento (SMART):** [...]
+### Capítulo de Pedro Gonçalves da Mota
+* **Papel no Projeto:** Responsável pela escrita da Abertura (Seção 1), Análise do Problema (Seção 2), Proposta Tecnológica (Seção 3), Quadro de Decisões. 
+* **Plano de Desenvolvimento (SMART):** Dentro dos 6 meses eu pretendo construir e publicar 2 projetos completos de backend no GitHub com autenticação via JWT, documentação automática via Swagger e cobertura de testes unitários com Pytest superior a 80%, visando a conquista de uma vaga em instituições financeiras (como Bradesco, Nubank ou Santander). Nós próximos 12 meses já vou estar trabalhando dentro de algum desses bancos, na área de desenvolvedor back-end, contribuindo ao máximo que posso, e sempre procurando me aperfeiçoar através de cursos de desenvolvedor back-end, fazer curso de inglês, pra impulsionar meu currículo e minha vida profissional.   
 
 ### Feedback dos Colegas (Redigido em Conjunto)
-* [Breve parágrafo avaliando a dinâmica de colaboração do grupo na Entrega 2.]
+* A nossa equipe operou com excelente nível de colaboração ao longo da Entrega 2. O fluxo de trabalho estruturado no GitHub por meio de branches e Pull Requests garantiu que cada integrante contribuísse de tal maneira. As discussões integraram os conceitos de ADS à realidade social e legal dos trabalhadores de aplicativos, gerando um dossiê técnico coerente, viável e eticamente responsável.
 
 ---
 
