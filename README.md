@@ -201,7 +201,7 @@ Quero começar a fazer alguns testes ainda neste mês de **Novembro de 2026**, e
 
 Até o final de **Janeiro de 2027**, o projeto ganhará uma versão final e oficial, devidamente testada e pronta para o uso diário dentro da loja.** 
 
-Feedback dos colegas: O projeto foi bem organizado, feito dividido em partes mas com decisões conjuntas, com todos os integrantes participando e se empenhando em suas partes. Um projeto também muito bem organizado e liderado pelo colega Pedro Gonçalves Da Mota, que propos o tema central e deu inicio ao projeto.  
+** Feedback dos colegas: O projeto foi bem organizado, feito dividido em partes mas com decisões conjuntas, com todos os integrantes participando e se empenhando em suas partes. Um projeto também muito bem organizado e liderado pelo colega Pedro Gonçalves Da Mota, que propos o tema central e deu inicio ao projeto.  
 
 ### Capítulo de Júlio César Marques de Sousa
 Entendido, aqui está o conteúdo organizado, sem alterar o que você escreveu.
