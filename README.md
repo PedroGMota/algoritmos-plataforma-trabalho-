@@ -19,7 +19,7 @@
 **Justificativa Técnica e Social:**
 A escolha deste recorte é justificada pela alta frequência de desativações automatizadas geradas por falhas da infraestrutura. Em regiões periféricas da Grande São Paulo, as oscilações na rede de dados móveis e desvios por obras fazem o algoritmo interpretar a queda de sinal como sinalização de fraude ou burla de rota. Como as plataformas não oferecem canal direto com operadores humanos, o trabalhador é suspenso temporariamente.
   * **Alessandro Tavares Brandão** | RGM: 47995092 | Área: ADS | GitHub: https://github.com/alessandro16014
-  * **Júlio Cesar Marques de Sousa** | RGM:  04806969-8 | Área: ADS | GitHub: [@usuario2]
+  * **Júlio Cesar Marques de Sousa** | RGM:  04806969-8 | Área: ADS | GitHub: https://github.com/Juliocesarmarq
   * **Pedro Gonçalves da Mota** | RGM: 47998717 | Área: ADS | GitHub: https://github.com/PedroGMota
   
 
