@@ -79,7 +79,9 @@ A escolha deste recorte é justificada pela alta frequência de desativações a
 | 5 | Falta de explicação sobre decisões tomadas pelo algoritmo | Médio | Dificuldade de contestação e perda de confiança na plataforma  | Utilizar IA explicável e informar os motivos da decisão |
 
 ### 4.2. Decisão do Grupo
-* [Insira aqui, em até 10 linhas, a decisão fundamentada do grupo sobre a implantação do sistema.]
+4.2. Decisão do Grupo
+
+O grupo decide pela aprovação da implantação do sistema Rota Clara adotando a estratégia de Implantação em Fases (Modelo MVP e Piloto Regional). Essa escolha é fundamental na necessidade de mitigar riscos operacionais e financeiros, permitindo validar a precisão da IA Explicável (SHAP) e a capacidade do painel de revisão humana (SLA de 48h) em um ambiente real e controlado. O projeto piloto focará de forma exclusiva nos entregadores de motocicleta da Zona Leste de São Paulo, uma área que concentra alta densidade de trabalhadores e falhas crônicas de infraestrutura de rede. Embora adie temporariamente o amparo a outras áreas periféricas, essa abordagem pragmática garante o refinamento seguro do sistema, assegurando escalabilidade, sustentabilidade e o sucesso do projeto antes da sua expansão total.
 
 ### 4.3. Controles nos Seis Eixos
 1. Transparência: 
@@ -204,39 +206,33 @@ Até o final de **Janeiro de 2027**, o projeto ganhará uma versão final e ofic
 ** Feedback dos colegas: O projeto foi bem organizado, feito dividido em partes mas com decisões conjuntas, com todos os integrantes participando e se empenhando em suas partes. Um projeto também muito bem organizado e liderado pelo colega Pedro Gonçalves Da Mota, que propos o tema central e deu inicio ao projeto.  
 
 ### Capítulo de Júlio César Marques de Sousa
-Entendido, aqui está o conteúdo organizado, sem alterar o que você escreveu.
 
 ## Atuação: conformidade técnica, ética e governança do projeto
 
-- Pesquisa e análise sobre gestão algorítmica
-- Estudo e mapeamento de discriminação algorítmica
 - Construção da Matriz de Riscos da solução
 - Desenvolvimento e adequação à LGPD (Privacidade e Proteção de Dados)
 - Definição de requisitos de Acessibilidade e Inclusão Digital
 - Levantamento de diretrizes de Sustentabilidade (TI Verde)
-- Discussão e planejamento da estratégia de implantação via MVP (Produto Mínimo Viável)
 
 ## Plano de Desenvolvimento Individual (SMART)
 
-**S (Específica)**\
+**S (Específica)
 &#x20;Reduzir bloqueios indevidos realizados por algoritmos em plataformas de trabalho, implementando um fluxo de revisão humana obrigatório para contestações antes da tomada de decisão definitiva.
-**M (Mensurável)**
+**M (Mensurável)
 - Diminuir em 30% a taxa de bloqueios indevidos identificados durante a fase piloto.
 - Responder a pelo menos 90% das contestações dos usuários no prazo máximo de 48 horas.
-**A (Atingível)**\
+**A (Atingível)
 &#x20;A meta será viabilizada por:
 - Alocação de equipe para análise humana dedicada
 - Fornecimento de explicações claras sobre as decisões do algoritmo
 - Acompanhamento contínuo dos principais motivos de bloqueio
-**R (Relevante)**\
+**R (Relevante)
 &#x20;A eliminação de bloqueios injustos:
 - Protege a renda dos trabalhadores
 - Aumenta a transparência do sistema
 - Fortalece a confiança da comunidade no uso de soluções automatizadas
-**T (Temporal)**\
+**T (Temporal)
 &#x20;Atingir e consolidar os indicadores no período de 6 meses após o lançamento do projeto piloto, com avaliação final em até 12 meses.
-
-Se quiser, posso gerar isso em Word ou PDF. (o que tu achou???)
 
 ### Capítulo de Pedro Gonçalves da Mota
 * **Papel no Projeto:** Responsável pela escrita da Abertura (Seção 1), Análise do Problema (Seção 2), Proposta Tecnológica (Seção 3), Quadro de Decisões. 
