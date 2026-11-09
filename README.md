@@ -175,5 +175,14 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 
 ## 10. Referências
 
-1. [Autor / Instituição]. **[Título da Fonte / Artigo / Relatório]**. [Ano (entre 2024 e 2026)]. Disponível em: <[Link]>. Acesso em: [Data].
-2. [Adicionar demais referências seguindo o mesmo padrão].
+1. AGÊNCIA BRASIL. Brasil tem 2 milhões de pessoas que trabalham por meio de aplicativos. EBC, 2026. Disponível em: https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-tem-2-milhoes-de-pessoas-que-trabalham-por-meio-de-aplicativos.
+
+2. AGÊNCIA DE NOTÍCIAS IBGE. Trabalhadores de transporte de passageiros por aplicativo chegam a 1,2 milhão de pessoas no país. IBGE, 2026. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47966-trabalhadores-de-transporte-de-passageiros-por-aplicativo-chegam-a-1-2-milhao-de-pessoas-no-pais.
+
+3. G1 ECONOMIA. Jornada maior, renda menor: quase 2 milhões trabalham por aplicativos no Brasil, mostra IBGE. Globo.com, 2026. Disponível em: https://g1.globo.com/economia/noticia/2026/09/04/quase-2-milhoes-trabalham-por-aplicativos-no-brasil-mostra-ibge.ghtml
+
+4. AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS (ANPD). Nota Técnica nº 20/2026: Tratamento de dados pessoais em sistemas de tomada de decisão automatizada e inteligência artificial. Brasília: ANPD, 2026. Disponível em: https://www.gov.br/anpd/pt-br/acesso-a-informacao/participacao-social/outras-acoes/ts-04-2026-nota-tecnica-no-20-2026.pdf/@@display-file/file.
+
+5. TRIBUNAL SUPERIOR DO TRABALHO (TST). TST suspende perícia técnica no algoritmo de plataforma de táxis. Brasília: TST, 2024. Disponível em: https://www.tst.jus.br/-/tst-suspende-per%C3%ADcia-t%C3%A9cnica-no-algoritmo-de-plataforma-de-t%C3%A1xis.
+
+6. SUPREMO TRIBUNAL FEDERAL (STF). Tema 1291: Reconhecimento de vínculo empregatício entre motorista de aplicativo de prestação de serviços de transporte e a empresa administradora de plataforma digital. Brasília: STF, 2024. Disponível em: https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=1291.
