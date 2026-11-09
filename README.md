@@ -156,9 +156,50 @@ O RevisaAI utilizará infraestrutura em nuvem, priorizando provedores que adotem
 
 ## 9. Capítulos individuais
 
-### Capítulo de [nome do integrante]
-* **Papel no Projeto:** 
-* **Plano de Desenvolvimento (SMART):** [Metas de competências técnicas e comportamentais para 6 a 12 meses]
+### Capítulo de Alessandro Tavares Brandão
+* **Papel no Projeto: Responsavel pela escrita das sessões 7 e 8 **
+* **# Plano de Desenvolvimento SMART para os próximos 6 a 12 meses
+
+##  Específico (S)
+**O que você vai fazer de forma clara e exata?**
+
+Quero ampliar meus conhecimentos em Cloud Computing, começando com AWS da Amazon e também com o Azure da Microsoft, me aprofundar um pouco mais no desenvolvimento e análise de banco de dados, e alcançar o nível do intermediário ao avançado no Inglês. 
+
+*Contexto Atual:* Atualmente, além dos projetos da faculdade, estou desenvolvendo um sistema de fluxo de caixa e estoque para a loja na qual trabalho, junto com um banco de dados, ainda simples, apenas um protótipo para aprendizado.
+
+---
+
+##  Mensurável (M)
+**Como você vai comprovar que alcançou o objetivo?**
+
+Quero utilizar o sistema na loja por um dia para fins de testes, para verificar como ele se comporta em um número elevado de vendas, ou de dados sendo inseridos. O objetivo é garantir que, ao finalizar uma venda, o sistema adicione a quantidade e o valor de cada produto vendido de forma correta e sem bugs.
+
+---
+
+## Alcançável (A)
+**Quais recursos você possui e como vai encaixar isso na rotina?**
+
+Atualmente tenho pouca disponibilidade para desenvolver este projeto. Ao final do dia me sobram apenas uma ou duas horas na semana, e aos finais de semana cerca de quatro ou cinco horas — um tempo a mais no qual eu consigo pensar e desenvolver este projeto. 
+
+Espero que em janeiro, por conta das férias da faculdade, eu consiga desenvolver este projeto de uma forma melhor e também focar mais nos estudos fora da faculdade. Alguns materiais de estudos sobre bancos de dados estão me auxiliando no desenvolvimento deste projeto.
+
+---
+
+## Relevante (R)
+**Por que isso é estrategicamente importante para o seu futuro profissional?**
+
+Porque este projeto une várias áreas de estudos do meu interesse. Durante o período de desenvolvimento, vou adquirir um conhecimento não só técnico de programação e criação de bancos de dados, mas também do mercado de trabalho real, entendendo problemas reais que são descobertos apenas na utilização do sistema no dia a dia. São problemas cujas soluções vêm da experiência prática. 
+
+Por estes motivos, acredito que este projeto é muito relevante para o meu desenvolvimento pessoal e para o futuro da minha carreira em TI.
+
+---
+
+## Temporal (T)
+**Qual é o prazo final definitivo?**
+
+Quero começar a fazer alguns testes ainda neste mês de **Novembro de 2026**, e pretendo ir atualizando aos poucos e aumentando a quantidade de testes. 
+
+Até o final de **Janeiro de 2027**, o projeto ganhará uma versão final e oficial, devidamente testada e pronta para o uso diário dentro da loja.** 
 
 ### Capítulo de Júlio César Marques de Sousa
 Entendido, aqui está o conteúdo organizado, sem alterar o que você escreveu.
