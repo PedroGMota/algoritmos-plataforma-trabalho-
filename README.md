@@ -194,7 +194,7 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 ### Alessandro Tavares Brandão
  
 - **Papel no projeto:** responsável pela escrita das seções 7 (Impacto esperado) e 8 (Quadro de decisões).
-- 
+
 **Plano de desenvolvimento SMART (6 a 12 meses)**
  
 - **Específico:** Desenvolver meus em Cloud Computing, começando por AWS e Azure; aprofundar banco de dados (desenvolvimento e análise); e chegar do inglês intermediário ao avançado. Hoje, além dos projetos da faculdade, desenvolvo um sistema de fluxo de caixa e estoque para a loja onde trabalho, com um banco de dados simples, como protótipo de aprendizado.
