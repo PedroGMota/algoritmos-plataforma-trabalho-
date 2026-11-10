@@ -197,21 +197,21 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 
 **Plano de desenvolvimento SMART (6 a 12 meses)**
  
-- Específica (Specific): Especializar-me em governança de dados, conformidade legal de softwares (compliance) e aplicação prática das diretrizes internacionais de acessibilidade (WCAG 2.2).
-- Mensurável (Measurable): Aplicar um checklist completo de auditoria de LGPD, redução de riscos e acessibilidade em 100% dos trabalhos práticos que eu desenvolver na faculdade.
-- Atingível (Achievable): Estudar semanalmente materiais de órgãos reguladores (como a ANPD) e cartilhas de acessibilidade digital, incorporando esses padrões na minha rotina de código.
-- Relevante (Relevant): O mercado de tecnologia busca profissionais que saibam construir sistemas respeitando a privacidade dos dados e a inclusão desde o início do desenvolvimento (privacy by design).
-- Temporal (Time-bound): Consolidar essa bagagem prática de governança e manter os relatórios de conformidade atualizados ao longo dos próximos 12 meses.
+- **Específico:** Desenvolver meus em Cloud Computing, começando por AWS e Azure; aprofundar banco de dados (desenvolvimento e análise); e chegar do inglês intermediário ao avançado. Hoje, além dos projetos da faculdade, desenvolvo um sistema de fluxo de caixa e estoque para a loja onde trabalho, com um banco de dados simples, como protótipo de aprendizado.
+- **Mensurável:** usar o sistema na loja por um dia de testes, com alto volume de vendas e de dados inseridos, e confirmar que, ao finalizar uma venda, ele registra a quantidade e o valor de cada produto de forma correta e sem bugs.
+- **Alcançável:** tenho pouco tempo: uma ou duas horas por semana nos dias úteis e quatro a cinco horas nos fins de semana. Em janeiro, com as férias da faculdade, espero me dedicar mais. Materiais de estudo sobre banco de dados já me ajudam no projeto.
+- **Relevante:** o projeto une várias áreas do meu interesse e me dá experiência prática com problemas reais, que só aparecem no uso diário do sistema. Isso contribui para minha carreira em TI.
+- **Smart:** começar os testes ainda em novembro de 2026 e, até o fim de janeiro de 2027, ter uma versão final, testada e pronta para uso diário na loja.
 ### Júlio Cesar Marques de Sousa
  
 - **Papel no projeto:** responsável por conformidade técnica, ética e governança: Matriz de Riscos (4.1), LGPD (4.4), Acessibilidade e Inclusão Digital (5) e Sustentabilidade (6).
 **Plano de desenvolvimento SMART**
  
-- **Específico:** reduzir bloqueios indevidos feitos por algoritmos em plataformas de trabalho, com revisão humana obrigatória das contestações antes da decisão definitiva.
-- **Mensurável:** reduzir em 30% a taxa de bloqueios indevidos no piloto e responder a pelo menos 90% das contestações em até 48 horas.
-- **Alcançável:** alocar uma equipe de análise humana, dar explicações claras sobre as decisões do algoritmo e acompanhar os principais motivos de bloqueio.
-- **Relevante:** evitar bloqueios injustos protege a renda dos trabalhadores, aumenta a transparência e fortalece a confiança em soluções automatizadas.
-- **Temporal:** consolidar os indicadores em 6 meses após o início do piloto, com avaliação final em até 12 meses.
+- Específica (Specific): Especializar-me em governança de dados, conformidade legal de softwares (compliance) e aplicação prática das diretrizes internacionais de acessibilidade (WCAG 2.2).
+- Mensurável (Measurable): Aplicar um checklist completo de auditoria de LGPD, redução de riscos e acessibilidade em 100% dos trabalhos práticos que eu desenvolver na faculdade.
+- Atingível (Achievable): Estudar semanalmente materiais de órgãos reguladores (como a ANPD) e cartilhas de acessibilidade digital, incorporando esses padrões na minha rotina de código.
+- Relevante (Relevant): O mercado de tecnologia busca profissionais que saibam construir sistemas respeitando a privacidade dos dados e a inclusão desde o início do desenvolvimento (privacy by design).
+- Temporal (Time-bound): Consolidar essa bagagem prática de governança e manter os relatórios de conformidade atualizados ao longo dos próximos 12 meses.
 ### Pedro Gonçalves da Mota
  
 - **Papel no projeto:** propôs o tema e liderou a organização do trabalho. Responsável pela escrita das seções 1 (Abertura), 2 (Análise do problema) e 3 (Proposta tecnológica).
