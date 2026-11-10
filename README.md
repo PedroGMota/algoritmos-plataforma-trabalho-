@@ -195,7 +195,7 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
  
 - **Papel no projeto:** responsável pela escrita das seções 7 (Impacto esperado) e 8 (Quadro de decisões).
 
-**Plano de desenvolvimento SMART (6 a 12 meses)**
+**Plano de desenvolvimento SMART**
  
 - **Específico:** Desenvolver meus em Cloud Computing, começando por AWS e Azure; aprofundar banco de dados (desenvolvimento e análise); e chegar do inglês intermediário ao avançado. Hoje, além dos projetos da faculdade, desenvolvo um sistema de fluxo de caixa e estoque para a loja onde trabalho, com um banco de dados simples, como protótipo de aprendizado.
 - **Mensurável:** usar o sistema na loja por um dia de testes, com alto volume de vendas e de dados inseridos, e confirmar que, ao finalizar uma venda, ele registra a quantidade e o valor de cada produto de forma correta e sem bugs.
@@ -205,6 +205,7 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 ### Júlio Cesar Marques de Sousa
  
 - **Papel no projeto:** responsável por conformidade técnica, ética e governança: Matriz de Riscos (4.1), LGPD (4.4), Acessibilidade e Inclusão Digital (5) e Sustentabilidade (6).
+
 **Plano de desenvolvimento SMART**
  
 - Específica (Specific): Especializar-me em governança de dados, conformidade legal de softwares (compliance) e aplicação prática das diretrizes internacionais de acessibilidade (WCAG 2.2).
@@ -215,6 +216,7 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 ### Pedro Gonçalves da Mota
  
 - **Papel no projeto:** propôs o tema e liderou a organização do trabalho. Responsável pela escrita das seções 1 (Abertura), 2 (Análise do problema) e 3 (Proposta tecnológica).
+
 **Plano de desenvolvimento SMART**
  
 - **Competências a desenvolver:** back-end com autenticação, documentação de API, testes automatizados e inglês.
