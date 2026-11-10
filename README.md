@@ -194,13 +194,14 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 ### Alessandro Tavares Brandão
  
 - **Papel no projeto:** responsável pela escrita das seções 7 (Impacto esperado) e 8 (Quadro de decisões).
+- 
 **Plano de desenvolvimento SMART (6 a 12 meses)**
  
-- **Específico:** ampliar meus conhecimentos em Cloud Computing, começando por AWS e Azure; aprofundar banco de dados (desenvolvimento e análise); e chegar do inglês intermediário ao avançado. Hoje, além dos projetos da faculdade, desenvolvo um sistema de fluxo de caixa e estoque para a loja onde trabalho, com um banco de dados simples, como protótipo de aprendizado.
+- **Específico:** Desenvolver meus em Cloud Computing, começando por AWS e Azure; aprofundar banco de dados (desenvolvimento e análise); e chegar do inglês intermediário ao avançado. Hoje, além dos projetos da faculdade, desenvolvo um sistema de fluxo de caixa e estoque para a loja onde trabalho, com um banco de dados simples, como protótipo de aprendizado.
 - **Mensurável:** usar o sistema na loja por um dia de testes, com alto volume de vendas e de dados inseridos, e confirmar que, ao finalizar uma venda, ele registra a quantidade e o valor de cada produto de forma correta e sem bugs.
 - **Alcançável:** tenho pouco tempo: uma ou duas horas por semana nos dias úteis e quatro a cinco horas nos fins de semana. Em janeiro, com as férias da faculdade, espero me dedicar mais. Materiais de estudo sobre banco de dados já me ajudam no projeto.
 - **Relevante:** o projeto une várias áreas do meu interesse e me dá experiência prática com problemas reais, que só aparecem no uso diário do sistema. Isso contribui para minha carreira em TI.
-- **Temporal:** começar os testes ainda em novembro de 2026 e, até o fim de janeiro de 2027, ter uma versão final, testada e pronta para uso diário na loja.
+- **Smart:** começar os testes ainda em novembro de 2026 e, até o fim de janeiro de 2027, ter uma versão final, testada e pronta para uso diário na loja.
 ### Júlio Cesar Marques de Sousa
  
 - **Papel no projeto:** responsável por conformidade técnica, ética e governança: Matriz de Riscos (4.1), LGPD (4.4), Acessibilidade e Inclusão Digital (5) e Sustentabilidade (6).
