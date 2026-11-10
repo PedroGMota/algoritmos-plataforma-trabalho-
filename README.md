@@ -32,17 +32,17 @@
  
 No Brasil, cerca de 1,96 milhão de pessoas trabalharam por aplicativos de transporte e entrega em 2025, das quais 1,2 milhão em transporte de passageiros. Entre os que têm o aplicativo como ocupação principal, 84,4% são homens e 47% têm de 25 a 39 anos. Entre todos os trabalhadores de plataforma, 72,1% estão na informalidade e 34% têm cobertura previdenciária. Para motoristas de transporte e entregadores, o motivo mais citado para trabalhar por aplicativo foi não conseguir outro trabalho. Os dados são nacionais (PNAD Contínua, edição experimental do IBGE, contestada pela Amobitec, associação das plataformas) e não mostram o recorte da periferia de São Paulo.
  
-O problema central são as **desativações automatizadas**: a plataforma suspende ou bane a conta sem aviso prévio, sem explicar o motivo real e sem uma defesa que possa ser feita a um ser humano. A literatura jurídica recente descreve esse poder de bloquear o acesso sem aviso como uma das faces da gestão algorítmica do trabalho.
+O problema central reside nas desativações automatizadas sumárias: a inteligência artificial da plataforma suspende ou bane o perfil do trabalhador sem aviso prévio fundamentado, omitindo os parâmetros técnicos que motivaram a sanção e negando o acesso a instâncias de recurso com mediação humana. A literatura jurídica contemporânea aponta esse poder unilateral de exclusão digital como uma das expressões mais severas de precarização na gestão algorítmica do trabalho.
  
 **Quem é afetado no recorte:** entregadores de moto e motoristas de aplicativo da Zona Leste, de Guarulhos e do ABC. Dois fatores agravam a situação:
  
-- **Dependência da renda diária:** a maioria está na informalidade. Dois ou três dias de bloqueio podem zerar o orçamento da família.
+- **Dependência da renda diária:** Como a maioria desses trabalhadores atua na informalidade, ficar dois ou três dias com a conta bloqueada trava a renda da família na hora. Na prática, falta dinheiro até para o básico, como colocar comida na mesa, abastecer a moto ou fazer a manutenção do veículo.
 - **Infraestrutura precária na periferia:** a rede de dados oscila e o GPS falha em vias estreitas ou com obras. Se o algoritmo tratar isso como anomalia, a conta pode ser suspensa por uma falha de infraestrutura, e não por culpa do trabalhador.
 ### 2.2. Causas tecnológicas
  
-- **Algoritmo caixa-preta:** a plataforma bloqueia a conta, mas não informa qual dado gerou o bloqueio.
-- **Falta de contexto local:** o filtro antifraude pode não diferenciar uma sombra de cobertura de rede de uma tentativa real de falsificar o GPS.
-- **Atendimento por chatbot:** a contestação cai em respostas prontas e genéricas, sem opção de falar com uma pessoa.
+- **Algoritmo caixa-preta:** As plataformas usam sistemas de inteligência artificial fechados. Elas bloqueiam o entregador ou motorista, mas nunca explicam exatamente qual dado ou comportamento acionou o alarme de fraude.
+- **Falta de contexto local:** O filtro que detecta fraudes não sabe diferenciar uma queda comum de sinal de internet na periferia de uma tentativa real de enganar o GPS.
+- **Atendimento por chatbot:** Quem tenta reclamar do bloqueio só consegue falar com chatbots automáticos que mandam respostas prontas, sem nenhuma chance de conversar com uma pessoa de verdade.
 - **Direito à revisão sem canal efetivo:** o art. 20 da LGPD garante ao titular o direito de **solicitar revisão** de decisões tomadas unicamente por tratamento automatizado (art. 20 da Lei nº 13.709/2018, a LGPD). A exigência de que essa revisão seja feita por pessoa humana foi vetada em 2019 (Lei nº 13.853/2019), e a ANPD ainda discute como regulamentar o tema: a Nota Técnica nº 12/2025 registrou divergência entre os participantes sobre tornar a revisão humana obrigatória. Na prática, o art. 20 foi o dispositivo da LGPD mais invocado nas decisões judiciais analisadas pelo Painel LGPD nos Tribunais de 2026, inclusive para exigir explicação de bloqueios automatizados e revisão humana. Por isso a revisão humana do Rota Clara é uma escolha de projeto, apoiada em decisões judiciais como a do TJDFT, e não uma obrigação direta da lei. Projetos de lei sobre trabalho em plataformas na América Latina já incluem a transparência algorítmica entre os direitos previstos.
 - **Segredo industrial:** o próprio art. 20, 1º, manda informar os critérios da decisão automatizada **respeitando os segredos comercial e industrial**. As plataformas usam esse limite para não detalhar o algoritmo. A solução precisa trazer transparência sem exigir o código-fonte.
 ### 2.3. O que já existe e por que não basta
@@ -79,10 +79,10 @@ O grupo é formado por três alunos de ADS. As áreas abaixo descrevem o trabalh
  
 ### 3.3. O que a tecnologia não resolve
  
-- Não obriga a plataforma a aderir; depende de contrato (ver contingência na seção 7).
+- Não obriga a empresa a adotar o sistema se ela não quiser assinar contrato.
 - Não muda as regras de negócio da plataforma nem decide a questão do vínculo de emprego, que está no STF (Tema 1291) e, até outubro de 2026, ainda não tinha tese fixada.
-- Não corrige o mau sinal de rede nem a renda perdida durante a suspensão.
-- Não elimina o erro humano do operador; por isso a revisão é auditada (seção 4.3).
+- Não conserta a internet ruim da rua nem devolve o dinheiro do dia em que o trabalhador ficou parado.
+- Não anula 100% a chance de erro humano, por isso fazemos auditorias constantes.
 - Não impede que um fraudador use o canal; a triagem e a validação do dispositivo reduzem esse risco, mas não o zeram.
 ---
  
@@ -102,7 +102,7 @@ O grupo é formado por três alunos de ADS. As áreas abaixo descrevem o trabalh
  
 ### 4.2. Decisão do grupo
  
-**Implantar com controles**, em fases (MVP e piloto regional). O piloto atende apenas entregadores de moto da Zona Leste de São Paulo, onde há muitos trabalhadores e falhas frequentes de rede. A fase serve para validar a precisão da IA explicável (SHAP) e a capacidade do painel de revisão humana (48 horas) em ambiente real e controlado. A ampliação para outras regiões só acontece depois de as metas da seção 7 serem atingidas.
+Vamos implantar o sistema em etapas, começando com um piloto focado apenas em entregadores de moto na Zona Leste de São Paulo. Isso permite testar se a IA e o painel de atendimento humano funcionam bem na prática antes de pensar em expandir para outros lugares.
  
 ### 4.3. Controles nos seis eixos
  
@@ -149,7 +149,7 @@ O grupo é formado por três alunos de ADS. As áreas abaixo descrevem o trabalh
 - dimensionar a nuvem conforme a demanda, com escala automática;
 - preferir região de nuvem com maior uso de energia renovável;
 - usar um modelo de triagem leve e armazenamento otimizado.
-**Quem mantém e quem paga:** no primeiro ano, o projeto é financiado por investimento inicial, parcerias institucionais ou programas de incentivo à inovação. Depois, a manutenção é custeada por contratos com plataformas e instituições parceiras interessadas em transparência e segurança. Os custos de revisão humana, auditoria e proteção de dados entram no orçamento operacional. Para evitar conflito de interesse (risco 6), o contrato deve prever auditoria externa e relatório público agregado.
+**Quem mantém e quem paga:** no primeiro ano, o projeto é financiado por investimento inicial, parcerias institucionais ou programas de incentivo à inovação. Depois, a manutenção é custeada por contratos com plataformas e instituições parceiras interessadas em transparência e segurança. Os custos de revisão humana, auditoria e proteção de dados entram no orçamento operacional. Para evitar conflito de interesse, o contrato deve prever auditoria externa e relatório público agregado.
  
 ---
  
@@ -223,9 +223,28 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 - **Alcançável:** conciliar o estudo com a faculdade, usando como base o que já pratico em Python.
 - **Relevante:** o objetivo é conquistar uma vaga de desenvolvedor back-end em instituição financeira (Bradesco, Nubank ou Santander).
 - **Temporal:** em 6 meses, os dois projetos publicados; em 12 meses, já trabalhando como desenvolvedor back-end, com cursos de back-end e de inglês em andamento para continuar evoluindo.
+
+### Feedback entre os integrantes
+
+- O que o Alessandro diz sobre os parceiros:
+Sobre o Pedro: "O Pedro foi o cara que puxou o bonde. Ele trouxe a ideia do trabalho, já deixou o GitHub pronto e organizado para a gente não se perder e sempre mantinha o grupo alinhado nos prazos. A ajuda dele com a parte técnica de backend e o foco dele fizeram toda a diferença para o trabalho andar redondo."
+
+Sobre o Júlio: "O Júlio pegou a parte mais chata e densa do trabalho, que é a parte de leis e regras, e tirou de letra. Ele estudou tudo sobre a LGPD e acessibilidade para garantir que o projeto fosse legal e justo de verdade. 
+
+O que o Júlio diz sobre os parceiros:
+Sobre o Pedro: "O Pedro liderou muito bem a organização do grupo. Ele montou a estrutura do repositório de um jeito simples e ajudou a transformar nossa ideia em uma proposta técnica de verdade. Ele conduziu os nossos alinhamentos com muita tranquilidade e foco."
+
+Sobre o Alessandro: "O Alessandro foi super parceiro do início ao fim. Ele conseguiu conciliar a correria do dia a dia dele com os prazos da faculdade e escreveu as partes de impacto e decisões com muita clareza. A vivência prática dele com sistemas ajudou bastante nas nossas discussões."
+
+O que o Pedro diz sobre os parceiros:
+Sobre o Alessandro: "O Alessandro foi um parceiro nota dez. Ele se dedicou pra caramba, entregou a parte dele no prazo e com um nível de detalhe muito bom. A visão prática dele ajudou muito a amarrar o nosso quadro de decisões."
+
+Sobre o Júlio: "O Júlio fez um trabalho impecável na parte ética, LGPD e acessibilidade. Ele encarou a leitura pesada das leis e transformou isso em diretrizes práticas para a nossa plataforma. Foi um integrante extremamente focado e pontual, o que deu muita segurança para o nosso projeto."
+
 ### Feedback dos colegas (redigido em conjunto)
  
 O grupo trabalhou de forma colaborativa. As decisões foram tomadas em conjunto e cada integrante se dedicou à sua parte. O Pedro propôs o tema, deu início ao projeto e organizou o trabalho. O fluxo no GitHub, com branches e pull requests, permitiu que cada um contribuísse e mantivesse o histórico das alterações. As discussões ligaram os conceitos de ADS à realidade social e legal dos trabalhadores de aplicativos.
+
  
 ---
  
