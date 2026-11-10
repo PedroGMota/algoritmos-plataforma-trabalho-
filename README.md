@@ -203,15 +203,17 @@ O contexto regulatório segue indefinido: o PL 152/2025 foi retirado e o STF ain
 - **Relevante:** o projeto une várias áreas do meu interesse e me dá experiência prática com problemas reais, que só aparecem no uso diário do sistema. Isso contribui para minha carreira em TI.
 - **Smart:** começar os testes ainda em novembro de 2026 e, até o fim de janeiro de 2027, ter uma versão final, testada e pronta para uso diário na loja.
 ### Júlio Cesar Marques de Sousa
- 
-- **Papel no projeto:** responsável por conformidade técnica, ética e governança: Matriz de Riscos (4.1), LGPD (4.4), Acessibilidade e Inclusão Digital (5) e Sustentabilidade (6).
-**Plano de desenvolvimento SMART**
- 
-- **Específico:** reduzir bloqueios indevidos feitos por algoritmos em plataformas de trabalho, com revisão humana obrigatória das contestações antes da decisão definitiva.
-- **Mensurável:** reduzir em 30% a taxa de bloqueios indevidos no piloto e responder a pelo menos 90% das contestações em até 48 horas.
-- **Alcançável:** alocar uma equipe de análise humana, dar explicações claras sobre as decisões do algoritmo e acompanhar os principais motivos de bloqueio.
-- **Relevante:** evitar bloqueios injustos protege a renda dos trabalhadores, aumenta a transparência e fortalece a confiança em soluções automatizadas.
-- **Temporal:** consolidar os indicadores em 6 meses após o início do piloto, com avaliação final em até 12 meses.
+
+Específico: Aprender quatro linguagens de programação: Python e JavaScript nos primeiros seis meses, seguidas de Java e C até completar doze meses. Aprofundar meus conhecimentos em cibersegurança, buscando alcançar um nível intermediário ao final do período. Também pretendo concluir meus estudos de espanhol e iniciar o aprendizado de inglês, avançando gradualmente no idioma.
+
+Mensurável: Acompanhar meu progresso por meio de cursos gratuitos, como os oferecidos pela Fundação Bradesco e outras plataformas de ensino, além de utilizar o Duolingo para a prática dos idiomas. Complementar os estudos com vídeos educativos, pesquisas na internet e ferramentas de inteligência artificial para esclarecer dúvidas e aprofundar os conhecimentos. Na programação, desenvolver pequenos projetos e atividades práticas para verificar o aprendizado das linguagens. Na cibersegurança, acompanhar conteúdos técnicos e realizar exercícios práticos para avaliar minha evolução.
+
+Alcançável: Estabelecer uma rotina de aproximadamente 14 horas semanais de estudo, distribuídas entre os dias úteis e os finais de semana, respeitando minhas responsabilidades com o trabalho e a faculdade. Utilizar principalmente recursos gratuitos e materiais disponíveis na internet, mantendo uma rotina de aprendizado gradual e organizada.
+
+Relevante: Desenvolver essas habilidades é importante para ampliar minhas oportunidades no mercado de trabalho, aumentar minha qualificação profissional e adquirir conhecimentos em diferentes áreas da tecnologia. Além disso, busco estar preparado para seguir caminhos profissionais alternativos caso meus planos iniciais não aconteçam como esperado, tendo mais possibilidades de escolha para o futuro.
+
+Temporal: Nos primeiros seis meses, pretendo aprender Python e JavaScript, concluir meus estudos de espanhol e aprofundar meus conhecimentos gerais em cibersegurança. Entre o sexto e o décimo segundo mês, pretendo aprender Java e C, direcionar maior atenção ao inglês e alcançar conhecimentos intermediários em cibersegurança. Ao final dos doze meses, espero ter desenvolvido uma base mais ampla de conhecimentos técnicos e linguísticos, contribuindo para minha formação acadêmica e profissional.
+
 ### Pedro Gonçalves da Mota
  
 - **Papel no projeto:** propôs o tema e liderou a organização do trabalho. Responsável pela escrita das seções 1 (Abertura), 2 (Análise do problema) e 3 (Proposta tecnológica).
